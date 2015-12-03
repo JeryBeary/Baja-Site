@@ -1,0 +1,33 @@
+.title_header{
+	width:100%;
+	min-height: 300px;
+
+}
+#diamond{
+	margin-top: 80px;
+background: -webkit-linear-gradient(left,#f2f2f2 ,#a6a6a6 );
+		}
+
+#diamond > p{
+	color:#3399ff;
+	font-weight: 100;
+	font-size: 2.2em;
+	font-family: raleway;
+	position: relative;
+	left:50;
+	top:180;
+}
+
+#platnium{
+background: -webkit-linear-gradient(left,#00ffcc,#e6e6e6);
+		}
+
+#platnium > p{
+	color:white;
+	font-weight: 100;
+	font-size: 2.2em;
+	font-family: raleway;
+	position: relative;
+	left:50;
+	top:180;
+}

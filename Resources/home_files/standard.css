@@ -1,0 +1,105 @@
+/* navbar */
+.navbar-default {
+    width:100%;
+    /*background-color: #FFDB4D;*/
+    min-height: 10vh;
+    background-color: rgba(0, 34, 99, .7);
+    border-style: none;
+    font-weight: 200;
+    color: #FFFF85;
+    box-shadow: 0px 1px #8c8c8c;
+
+}
+.navbar-brand{
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #FFFF85;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+
+    color: #FFFF85;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    line-height: 40px;
+    color: #FFDB4D;
+    font-weight: 400;
+    font-family: helvetica;
+    width:100%;
+    font-size: 120%;
+
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	-webkit-transition: color .55s, background-color .55s;
+    color: #3366FF;
+    background-color: #FFDB4D;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	-webkit-transition: color .55s, background-color .55s;
+    color: #3366FF;
+    background-color: #FFDB4D;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 788px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+
+}
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+
+/* footer stuff */
+#footer{
+    height:200px;
+    background-color:#FFD11A;
+}
+hr.footer_hr{
+    background-color: white;
+}
+.icon{
+    width:40px;
+    height:40px;
+
+}
+.icon_links{
+    margin-top: 1%;
+}

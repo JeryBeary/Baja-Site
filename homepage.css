@@ -1,0 +1,217 @@
+body{
+	position:relative;
+	height:100%;
+	width:100%;
+	background-image: url("Resources/baja_car.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.center_label{
+	margin-top: 30vh;
+	width:100%;
+	text-align: center;
+	font-family: "Open Sans";
+	font-size: 700%;
+	font-weight: 100;
+	color: white;
+	min-height: 70vh;
+}
+
+.achievements{
+	height: 90vh;
+	width:100%;
+	background-color:  rgba(51, 153, 255, .8);
+}
+.btn-button-name, .btn-button-name:link {
+	border-radius: 0px;
+    background-color: transparent;
+    margin-top: 160px;
+    font-weight: 700;
+    box-shadow: none;
+    color: white;
+    border: 2px solid white;
+}
+.btn-button-name:active, .btn-button-name:hover {
+
+    background-color: white;
+    color: black;
+	-webkit-transition: color .55s, background-color .55s;
+}
+
+.btn-button-name:focus{
+	background-color: white;
+	color:black;
+}
+#news_feed{
+	overflow: scroll;
+	margin: 0 auto;
+	height:600px;
+	width: 100%;
+	background-color:#5c5cd6;
+	transition: height 0.4s;
+}
+#introduction{
+	min-height:800px;
+	width:100%;
+	background-color:#007acc;
+	padding-bottom: 40px;
+
+}
+.entry_title{
+	color: #FFCC66;
+}
+.entry{
+	text-align: justify;
+	margin:0 auto;
+	width:90%;
+	color:white;
+	font-size: 1.2em;
+}
+hr.blog{
+	border: dashed 2px;
+	color:white;
+}
+.member_notice{
+	padding-top: 20px;
+	min-height:300px;
+	width: 100%;
+	background-color: #ffd633;
+	font-weight: 100;
+	color:black;
+	font-family: "Open Sans";
+	font-size: 2.3em;
+}
+#member_message{
+	width:70%;
+	padding-top: 60px;
+	margin: 0 auto;
+	display:block;
+	text-align: center;
+	overflow: auto;
+}
+.box_header{
+	color: #ffdb4d;
+	font-weight: 200;
+	font-style: bold;
+	font-family: raleway;
+	text-align: center;
+	margin: 0 auto;
+	font-size:3em;
+}
+#team_description{
+	margin-top: 40px;
+	font-family: "Open Sans";
+	text-align: justify;
+	text-justify: inter-word;
+	font-weight: 100;
+	font-size: 1.7em;
+	width:80%;
+	margin-left: auto;
+	margin-right:auto;
+	color:white;
+}
+.achievement_image{
+	height:100%;
+	width:100%;
+}
+.no_padding{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.achievement_text{
+
+  color:white;
+  font-size: 2em;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.8s;
+
+}
+.text_picture{
+  position: absolute;
+  font-family: raleway;
+  margin: auto;
+  top: 20%;
+  bottom: 0;
+  left: 0;
+  right: 0;	
+}
+.img_wrap{
+	max-width:100%;
+	max-height: 50%;	
+}
+.img_wrap:hover .achievement_text {
+  visibility: visible;
+  opacity: 1;
+}
+.img_wrap:hover .achievement_image{
+	background-color: black;
+}
+#update_button{
+
+	margin-left:auto;
+	margin-right: auto;
+	top: 90;
+	left: 0;
+	right:0;
+}
+.achievement_caption{
+	
+	position: absolute;
+	top: 85%;
+	left:0;
+	right:0;
+	text-align: center;
+	margin-left:auto;
+	margin-right: auto;
+	color: white;
+	font-weight: 100;
+	font-family: lato;
+	font-size: 2.5em;
+
+}
+#caption_right{
+	position: absolute;
+	top: 90%;	
+}
+.achievement_header{
+	padding-bottom: 80px;
+	width:100%;
+	background-color:white;
+	color:#595959;
+	overflow: auto;
+}
+#achievement_notice{
+	margin-top: 90px;
+	width: 50%;
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+	color:#595959;	
+	font-family: lato;
+	font-size: 2em;
+
+}
+#achievement_symbol{
+	width: 50%;
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+	color:#595959;	
+	font-family: lato;
+	font-size: 3em;
+
+}
+
