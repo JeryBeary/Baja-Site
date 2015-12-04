@@ -1,33 +1,89 @@
+body
+{
+	background-color:#e6e6e6;
+}
+hr
+{
+	border: 0;
+	border-bottom: 1px solid;
+	border-color: #99CCFF;;
+	width:90%;  
+}
 .title_header{
 	width:100%;
-	min-height: 300px;
+	min-height: 200px;
+	float: left;
+	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
 
 }
+.title_header > p{
+
+	font-weight: 100;
+	font-size: 2.2em;
+	font-family: raleway;
+	position: relative;
+	left:50;
+	top:100;
+
+}
+#title{
+	text-align: center;
+	color:#6699ff;
+	font-weight:300;
+	margin-top: 100px;
+	font-family: raleway;
+}
+#sponsor_info{
+	margin: 0 auto;
+	color:#333333;
+	width:80%;
+	font-size:1.7em;
+	font-family: "open sans";
+	text-align: justify;
+}
 #diamond{
-	margin-top: 80px;
-background: -webkit-linear-gradient(left,#f2f2f2 ,#a6a6a6 );
-		}
+	background: -webkit-linear-gradient(left,#f2f2f2 ,#a6a6a6 );
+}
 
 #diamond > p{
 	color:#3399ff;
-	font-weight: 100;
-	font-size: 2.2em;
-	font-family: raleway;
-	position: relative;
-	left:50;
-	top:180;
+
 }
 
 #platnium{
-background: -webkit-linear-gradient(left,#00ffcc,#e6e6e6);
-		}
+	background: -webkit-linear-gradient(left,#00ffcc,#66ffff);
+}
 
 #platnium > p{
 	color:white;
-	font-weight: 100;
-	font-size: 2.2em;
-	font-family: raleway;
-	position: relative;
-	left:50;
-	top:180;
+
+}
+
+#gold{
+	background: -webkit-linear-gradient(left,#ffcc00,#ff9933);
+}
+
+#gold > p{
+	color:white;
+}
+.sponsor_body{
+	min-height:200px;
+	background-color: #f2f2f2;
+}
+.sponsor_description_1{
+	margin-right: 30px;
+	color:#333333;
+	font-size: 1.4em;
+	font-family: "Open sans";
+	text-align: justify;
+
+}
+.sponsor_description_2{
+	width: 90%;
+	color:#333333;
+	font-size: 1.4em;
+	font-family: "Open sans";
+	text-align: justify;
+
 }

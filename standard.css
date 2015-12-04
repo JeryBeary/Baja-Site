@@ -17,15 +17,15 @@
 
   top: 0;
   width: 100%;
-    -webkit-transition: all 1s ease-in-out;
-    transition: all .5s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 .affix-top{
     top:0;
 }
 
 .navbar-default {
- 
+    
     background-color: #333333;
     min-height: 80px;
     /*background-color: rgba(0, 34, 99, .7);*/
@@ -52,6 +52,7 @@
 }
 /* link */
 .navbar-nav{
+    margin:0 auto;
     margin-left: 60px;
 }
 .navbar-default .navbar-nav > li > a {
@@ -118,14 +119,14 @@
     }
 
 }
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #333;
-    }
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+}
 
 /* footer stuff */
 #footer{
- 
+   
     min-height:200px;
     background-color:#333333;
 }

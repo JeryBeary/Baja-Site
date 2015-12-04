@@ -4,8 +4,8 @@ body{
 	width:100%;
 	background-image: url("Resources/baja_car.jpg");
 	background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 
 }
 
@@ -27,17 +27,17 @@ body{
 }
 .btn-button-name, .btn-button-name:link {
 	border-radius: 0px;
-    background-color: transparent;
-    margin-top: 160px;
-    font-weight: 700;
-    box-shadow: none;
-    color: white;
-    border: 2px solid white;
+	background-color: transparent;
+	margin-top: 160px;
+	font-weight: 700;
+	box-shadow: none;
+	color: white;
+	border: 2px solid white;
 }
 .btn-button-name:active, .btn-button-name:hover {
 
-    background-color: white;
-    color: black;
+	background-color: white;
+	color: black;
 	-webkit-transition: color .55s, background-color .55s;
 }
 
@@ -124,37 +124,37 @@ hr.blog{
 
 .achievement_text{
 
-  color:white;
-  font-size: 2em;
-  text-align: center;
-  margin: auto;
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.8);
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transition: opacity 0.8s;
+	color:white;
+	font-size: 2em;
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.8);
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity 0.8s;
 
 }
 .text_picture{
-  position: absolute;
-  font-family: raleway;
-  margin: auto;
-  top: 20%;
-  bottom: 0;
-  left: 0;
-  right: 0;	
+	position: absolute;
+	font-family: raleway;
+	margin: auto;
+	top: 20%;
+	bottom: 0;
+	left: 0;
+	right: 0;	
 }
 .img_wrap{
 	max-width:100%;
 	max-height: 50%;	
 }
 .img_wrap:hover .achievement_text {
-  visibility: visible;
-  opacity: 1;
+	visibility: visible;
+	opacity: 1;
 }
 .img_wrap:hover .achievement_image{
 	background-color: black;

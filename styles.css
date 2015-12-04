@@ -41,8 +41,8 @@ hr.deep
 .center_label{
     text-align: center;
     color:#7575A3;
-    font-style: helvetica;
-    font-weight: 500;
+    font-style: "open sans";
+    font-weight: 200;
     font-size: 2em;
 }
 .member_portrait{
