@@ -1,6 +1,6 @@
 body
 {
-	background-color:#e6e6e6;
+	background-color:white;
 }
 hr
 {
@@ -16,6 +16,9 @@ hr
 	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 
 
+}
+span{
+	display:inline-block;
 }
 .title_header > p{
 
@@ -68,8 +71,9 @@ hr
 	color:white;
 }
 .sponsor_body{
+	padding-top: 50px;
 	min-height:200px;
-	background-color: #f2f2f2;
+	background-color: white;
 }
 .sponsor_description_1{
 	margin-right: 30px;
@@ -86,4 +90,8 @@ hr
 	font-family: "Open sans";
 	text-align: justify;
 
+}
+.gold_company{
+	height: 250px;
+	width: 250px;
 }
