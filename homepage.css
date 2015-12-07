@@ -57,6 +57,7 @@ body{
 	width:100%;
 	background-color:#007acc;
 	padding-bottom: 40px;
+	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 
 }
 .entry_title{
@@ -89,7 +90,7 @@ hr.blog{
 	margin: 0 auto;
 	display:block;
 	text-align: center;
-	overflow: auto;
+	
 }
 .box_header{
 	color: #ffdb4d;
@@ -189,6 +190,7 @@ hr.blog{
 	top: 90%;	
 }
 .achievement_header{
+
 	padding-bottom: 80px;
 	width:100%;
 	background-color:white;
