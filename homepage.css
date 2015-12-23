@@ -57,7 +57,9 @@ body{
 	width:100%;
 	background-color:#007acc;
 	padding-bottom: 40px;
-	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
 
 }
 .entry_title{

@@ -13,7 +13,7 @@ hr
 	width:100%;
 	min-height: 200px;
 	float: left;
-	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	
 
 
 }
@@ -92,6 +92,9 @@ span{
 
 }
 .gold_company{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 	height: 250px;
 	width: 250px;
 }
