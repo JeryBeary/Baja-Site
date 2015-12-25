@@ -1,0 +1,89 @@
+body{
+	height:100%;
+	width:100%;
+	background-image: url("Resources/baja_car4.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;	
+}
+
+hr{
+	border-color: #3399ff;
+	color:#99CCFF;
+	width:90%;
+}
+a{
+	color:#FFBB4D;
+}
+#title{
+	padding-top: 30px;
+	min-height: 100px;
+	font-family: montserrat;
+	color:white;
+	text-align: center;
+	font-size: 3em;
+}
+
+#contact_info{
+	min-height: 500px;
+	background-color: #999999;
+}
+.contact{
+	font-size: 2em;
+	text-align: justify;
+	font-family: "open sans";
+	margin:0 auto;
+	width:60%;
+}
+#contact_list{
+	-webkit-box-shadow: 0 5px 6px -6px black;
+	-moz-box-shadow: 0 5px 6px -2px black;
+	box-shadow: 0 4px 6px -4px black;
+	border-radius: 0px 0px 30px 30px;
+	background-color: #3399ff;
+	margin:0 auto;
+	width: 60%;
+}
+#students{
+	color:white;
+}
+#sponsors{
+	color:black;
+}
+#webmaster{
+	color:#cccccc;
+}
+#or{
+	color:white;
+	font-size: 4em;
+	text-align: center;
+}
+#mail{
+	font-size: 20px;
+	height:60px;
+	display:block;
+	border:none;
+	width:200px;
+	margin:0 auto;
+	background-color: #e74b80;
+	color: white;
+	border-radius: 200px 200px 200px 200px;
+	font-family: montserrat;
+	text-align: center;
+	vertical-align: center;
+}
+
+#mail:hover{
+	-webkit-transition: color .50s, background-color .50s;
+	background-color: white;
+	color: #e74b80;
+}
+
+@media (max-width: 788px) {
+	#contact_list{
+		width:100%;
+	}
+	.contact{
+		width:100%;
+	}
+}

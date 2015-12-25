@@ -55,11 +55,9 @@ body{
 #introduction{
 	min-height:800px;
 	width:100%;
-	background-color:#007acc;
+	background-color:#1a75ff;
 	padding-bottom: 40px;
-	-webkit-box-shadow: 0 8px 6px -6px black;
-	   -moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
+	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 
 }
 .entry_title{
@@ -83,7 +81,7 @@ hr.blog{
 	background-color: #ffd633;
 	font-weight: 100;
 	color:black;
-	font-family: "Open Sans";
+	font-family: "lato";
 	font-size: 2.3em;
 }
 #member_message{
@@ -91,7 +89,7 @@ hr.blog{
 	padding-top: 60px;
 	margin: 0 auto;
 	display:block;
-	text-align: center;
+	text-align: justify;
 	
 }
 .box_header{
@@ -220,4 +218,9 @@ hr.blog{
 	font-size: 3em;
 
 }
+@media (max-width: 788px) {
+	.column_workshop{
+		padding-top: 10px;
+	}
 
+}

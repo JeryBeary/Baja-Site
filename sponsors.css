@@ -13,8 +13,10 @@ hr
 	width:100%;
 	min-height: 200px;
 	float: left;
-	
-
+}	
+.highlight{
+	color:#ffbb33;
+}
 
 }
 span{
@@ -97,4 +99,11 @@ span{
     margin-right: auto;
 	height: 250px;
 	width: 250px;
+}
+@media (max-width: 788px) {
+	img{
+		display:block;
+		margin:0 auto;
+	}
+
 }
