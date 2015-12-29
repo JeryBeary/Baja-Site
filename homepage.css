@@ -25,6 +25,7 @@ body{
 	background-color:  rgba(51, 153, 255, .8);
 }
 .btn-button-name, .btn-button-name:link {
+
 	border-radius: 0px;
 	background-color: transparent;
 	margin-top: 160px;
@@ -38,6 +39,7 @@ body{
 	background-color: white;
 	color: black;
 	-webkit-transition: color .55s, background-color .55s;
+	-moz-transition: color .55s, background-color .55s;
 }
 
 .btn-button-name:focus{
@@ -75,8 +77,7 @@ hr.blog{
 	color:white;
 }
 .member_notice{
-	padding-top: 20px;
-	min-height:300px;
+ 	height:300px;
 	width: 100%;
 	background-color: #ffd633;
 	font-weight: 100;
@@ -86,9 +87,9 @@ hr.blog{
 }
 #member_message{
 	width:70%;
-	padding-top: 60px;
+	position: relative;
+	top:20%;
 	margin: 0 auto;
-	display:block;
 	text-align: justify;
 	
 }
@@ -220,7 +221,38 @@ hr.blog{
 }
 @media (max-width: 788px) {
 	.column_workshop{
+		display:block;
 		padding-top: 10px;
+		margin: 0 auto;
 	}
+	.member_notice{
+		height:500px;
+	}
+	.achievement_text{
+		font-size: 1.5em;
+	}
+	.text_picture{
+		width:80%;
+	}
+}
+@media (max-width: 1000px) {
+	.column_workshop{
+		display:block;
+		padding-top: 10px;
+		margin: 0 auto;
+	}
+}
 
+@media (min-width: 1400px) {
+	.center_label{
+		font-size: 900%;
+	}
+	.text_picture{
+		width:65%;
+		position: relative;
+		top:150;
+	}
+	.achievements{
+		max-height:70vh;
+	}
 }

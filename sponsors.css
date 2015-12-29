@@ -14,6 +14,15 @@ hr
 	min-height: 200px;
 	float: left;
 }	
+#title_wrap{
+	width:100%;
+	height: 500px;
+	background-image: url("Resources/sponsor_example.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	top:-20;
+}
 .highlight{
 	color:#ffbb33;
 }
@@ -33,11 +42,14 @@ span{
 
 }
 #title{
+	position:relative;
+	top:70%;
 	text-align: center;
-	color:#6699ff;
-	font-weight:300;
+	color:white;
+	font-weight:800;
 	margin-top: 100px;
-	font-family: raleway;
+	font-family: lato;
+	font-size: 5em;
 }
 #sponsor_info{
 	margin: 0 auto;
@@ -49,6 +61,7 @@ span{
 }
 #diamond{
 	background: -webkit-linear-gradient(left,#f2f2f2 ,#a6a6a6 );
+	background: -moz-linear-gradient(left,#f2f2f2 ,#a6a6a6 );
 }
 
 #diamond > p{
@@ -58,6 +71,8 @@ span{
 
 #platnium{
 	background: -webkit-linear-gradient(left,#00ffcc,#66ffff);
+	background: -moz-linear-gradient(left,#00ffcc,#66ffff);
+
 }
 
 #platnium > p{
@@ -67,10 +82,25 @@ span{
 
 #gold{
 	background: -webkit-linear-gradient(left,#ffcc00,#ff9933);
+	background: -moz-linear-gradient(left,#ffcc00,#ff9933);
 }
 
 #gold > p{
 	color:white;
+}
+
+#silver{
+	background: -webkit-linear-gradient(left,#f2f2f2 ,#a6a6a6 );
+	background: -moz-linear-gradient(left,#f2f2f2 ,#a6a6a6 );
+}
+
+#bronze{
+	background: -webkit-linear-gradient(left,#996600 ,#ffaa00 );
+	background: -moz-linear-gradient(left,#f2f2f2 ,#a6a6a6 );	
+}
+.top_sponsor{
+	display:block;
+	margin:0 auto;
 }
 .sponsor_body{
 	padding-top: 50px;
@@ -83,6 +113,8 @@ span{
 	font-size: 1.4em;
 	font-family: "Open sans";
 	text-align: justify;
+	width: 80%;
+	margin:0 auto;
 
 }
 .sponsor_description_2{
@@ -94,11 +126,46 @@ span{
 
 }
 .gold_company{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	height: 250px;
 	width: 250px;
+}
+.silver_company{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
+	width: 150px;	
+}
+.bronze_company{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 120px;
+	width: 200px;	
+}
+.replacement_logo{
+	margin-left: auto;
+	margin-right: auto;
+	height:150px;
+	width:150px;
+	border:solid #0099ff;
+	height:150px;
+	width:150px;
+}
+.replacement_bronze{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.replacement_logo > h4{
+	position: relative;
+	top:20%;
+	vertical-align: center;
+	text-align: center;
+	color:#0099ff;
 }
 @media (max-width: 788px) {
 	img{

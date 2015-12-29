@@ -46,6 +46,16 @@ $("#image_2").hover(
 		$("#caption_2").animate({'margin-top': ($(".img_wrap").height())*.01}, 100);
 	}
 	);
+$("#image_1").hover(
+	function()
+	{
+		$("#caption_1").animate({'margin-top': -($(".img_wrap").height()*.8)},100);
+	},
+	function()
+	{
+		$("#caption_1").animate({'margin-top': ($(".img_wrap").height())*.01}, 100);
+	}
+	);
 	
 });
 

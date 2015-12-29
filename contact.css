@@ -75,6 +75,7 @@ a{
 
 #mail:hover{
 	-webkit-transition: color .50s, background-color .50s;
+	-moz-transition: color .50s, background-color .50s;
 	background-color: white;
 	color: #e74b80;
 }
