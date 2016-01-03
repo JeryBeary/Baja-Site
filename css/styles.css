@@ -1,6 +1,7 @@
 body{
     height:100%;
     width:100%;
+    background-color: #f2f2f2;
 }
 hr.normal {
     border-color: #99CCFF;
@@ -18,11 +19,7 @@ hr.deep
 #myCarousel{
     margin:0 auto;
     display: block;
-    max-width: 100%;
-    width: 80%;
-    -webkit-box-shadow: 0 8px 6px -6px black;
-    -moz-box-shadow: 0 8px 6px -6px black;
-    box-shadow: 0 8px 6px -6px black;
+    width: 100%;
 }
 .jumbotron{
     border-radius: 20px 20px 20px 20px;
@@ -31,10 +28,11 @@ hr.deep
     background-color:  #E5F2FF;
 }
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    background-size: cover;
     margin-top: 30px;
     overflow: hidden;
     width: 100%;
-    height: 600px;
+    height: 90vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -42,14 +40,15 @@ hr.deep
     background-image: none;
 }
 .center_label{
+    letter-spacing: 1px;
+    text-decoration: underline;
     text-align: center;
     color:#7575A3;
-    font-style: "open sans";
-    font-weight: 200;
+    font-style: helvetica;
+    font-weight: 500;
     font-size: 2em;
 }
 .member_portrait{
-    border-radius: 20px 20px 20px 20px;
     width:200px;
     height:280px;
 }
@@ -59,7 +58,7 @@ hr.deep
     color:black;
 }
 div.captions{
-    margin-top: 22%;
+
 }
 #member_description{
     font-size: 1.5em;
@@ -100,4 +99,14 @@ ul.icons > li{
     margin-left: 45%;
 }
 
+@media (max-width: 900px) {
+    img{
+        display:block;
+        margin:0 auto;
+    }
+     .captions{
+        width:200px;
+        margin:0 auto;
+    }   
 
+}

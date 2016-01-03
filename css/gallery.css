@@ -1,0 +1,104 @@
+body{
+	background-color: #e6e6e6;
+}
+.car{
+	height:90vh;
+	width:100%;
+	margin: 0 auto;
+	/*background defined in corresponding html file*/
+	background-image: url("Resources/salt.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#title{
+	text-align: center;
+	position: relative;
+	top:50%;
+	font-weight: 500;
+	font-size: 5em;
+	color:white;
+	font-family: lato;
+}
+#competition_title{
+	text-align: center;
+	font-family: montserrat;
+	font-weight: 100;
+	font-size: 2.8em;
+}
+.competition{
+	font-family: "open sans";
+	-webkit-box-shadow: 0px 4px 23px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 23px -6px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 23px -6px rgba(0,0,0,0.75);
+	height:300px;
+	width:250px;
+}
+#competition_1 .competition_name {
+	background-color: #00274c;
+	color: white;
+}
+#competition_1 .description{
+	background-color: #ffcb05;
+
+	color:#00274c;
+}
+#competition_2 .competition_name {
+	background-color: #00274c;
+	color: white;
+}
+#competition_2 .description{
+	background-color: #ffcb05;
+
+	color:#00274c;
+}
+#competition_3 .competition_name {
+	background-color: #00274c;
+	color: white;
+}
+#competition_3 .description{
+	background-color: #ffcb05;
+
+	color:#00274c;
+}
+.competition_name{
+	border-radius: 10px 10px 0px 0px;
+	text-align: center;
+	width:100%;
+	height:25%;
+}
+.competition_name > h2{
+	position:relative;
+	top:30%;
+}
+.description{
+	width: 100%;
+	height:75%;
+}
+.row{
+	padding-top: 0;
+}
+.description > h2{
+	position: relative;
+	top:20%;
+	text-align: center;
+}
+#gallery{
+	width:100%;
+	height: 600px;
+	background-color:#bfbfbf; 
+}
+.fotorama{
+	position:relative;
+	top:20%;
+	margin:0 auto;
+	height:400px;
+	width:650px;
+}
+@media (max-width: 1000px) {
+	.competition{
+
+		display:block;
+		margin:0 auto;
+	}
+
+}

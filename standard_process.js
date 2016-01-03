@@ -19,41 +19,41 @@ $("#image_4").hover(
 	function()
 	{
 		loc4 = $("#caption_4").attr('src');
-		$("#caption_4").animate({'margin-top': -($(".img_wrap").height())*.8}, 100);
+		$("#caption_4").animate({'margin-top': -($(".img_wrap").height())*.45}, 300);
 	},
 	function()
 	{
-		$("#caption_4").animate({'margin-top': ($(".img_wrap").height())*.01}, 100);
+		$("#caption_4").animate({'margin-top': ($(".img_wrap").height())*.01}, 300);
 	}
 	);
 $("#image_3").hover(
 	function()
 	{
-		$("#caption_3").animate({'margin-top': -($(".img_wrap").height())*.8}, 100);
+		$("#caption_3").animate({'margin-top': -($(".img_wrap").height())*.45}, 300);
 	},
 	function()
 	{
-		$("#caption_3").animate({'margin-top': ($(".img_wrap").height())*.01}, 100);
+		$("#caption_3").animate({'margin-top': ($(".img_wrap").height())*.01}, 300);
 	}
 	);
 $("#image_2").hover(
 	function()
 	{
-		$("#caption_2").animate({'margin-top': -($(".img_wrap").height()*.8)},100);
+		$("#caption_2").animate({'margin-top': -($(".img_wrap").height()*.45)},300);
 	},
 	function()
 	{
-		$("#caption_2").animate({'margin-top': ($(".img_wrap").height())*.01}, 100);
+		$("#caption_2").animate({'margin-top': ($(".img_wrap").height())*.01}, 300);
 	}
 	);
 $("#image_1").hover(
 	function()
 	{
-		$("#caption_1").animate({'margin-top': -($(".img_wrap").height()*.8)},100);
+		$("#caption_1").animate({'margin-top': -($(".img_wrap").height()*.45)},300);
 	},
 	function()
 	{
-		$("#caption_1").animate({'margin-top': ($(".img_wrap").height())*.01}, 100);
+		$("#caption_1").animate({'margin-top': ($(".img_wrap").height())*.01}, 300);
 	}
 	);
 	

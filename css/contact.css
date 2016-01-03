@@ -1,16 +1,32 @@
 body{
 	height:100%;
 	width:100%;
-	background-image: url("Resources/baja_car4.jpg");
+	background-image: url("../Resources/baja_car4.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;	
 }
-
+h5{
+	text-decoration: underline;
+	text-align: center;
+	color:white;
+	font-size:2.3em;
+}
 hr{
 	border-color: #3399ff;
 	color:#99CCFF;
 	width:90%;
+}
+ul  {
+ padding-left:0;   
+}
+ul li  {
+ list-style-position:inside
+}
+#contacts > hr {
+	border-color:#333333;
+	color:black;
+	width:60%;
 }
 a{
 	color:#FFBB4D;
@@ -25,24 +41,23 @@ a{
 }
 
 #contact_info{
-	min-height: 500px;
-	background-color: #999999;
+	overflow:auto;
+	min-height: 420px;
+	background-color: #3399ff;
 }
 .contact{
 	font-size: 2em;
-	text-align: justify;
+	text-align: left;
 	font-family: "open sans";
+	height:auto;
 	margin:0 auto;
-	width:60%;
+	width:90%;
 }
 #contact_list{
-	-webkit-box-shadow: 0 5px 6px -6px black;
-	-moz-box-shadow: 0 5px 6px -2px black;
-	box-shadow: 0 4px 6px -4px black;
-	border-radius: 0px 0px 30px 30px;
 	background-color: #3399ff;
 	margin:0 auto;
-	width: 60%;
+	height: auto;
+	width: 100%;
 }
 #students{
 	color:white;
@@ -54,9 +69,14 @@ a{
 	color:#cccccc;
 }
 #or{
+
 	color:white;
 	font-size: 4em;
 	text-align: center;
+}
+#button_area{
+	height: auto;
+	background-color: #00274c;
 }
 #mail{
 	font-size: 20px;
@@ -79,7 +99,13 @@ a{
 	background-color: white;
 	color: #e74b80;
 }
-
+#map{
+	margin:0 auto;
+	position:relative;
+	width:400px;
+	height:350px;
+	padding-bottom: 20px;
+}
 @media (max-width: 788px) {
 	#contact_list{
 		width:100%;

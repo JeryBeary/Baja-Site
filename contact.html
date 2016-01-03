@@ -1,8 +1,8 @@
 <html lang = "en-US">
 <head>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="standard.css">
-	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link rel="stylesheet" type="text/css" href="css/standard.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto">
@@ -10,50 +10,19 @@
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
 	<script src="standard_process.js"></script>
+	<script src="contact.js"></script>
+	<script>
+		$(function(){
+
+			$("#top").load("header.html");  
+			$("#footer").load("footer.html");  
+		});
+	</script>
 </head>
 <body>
-	<div class = "top">
-		<div class = "nav">
-			<nav class="navbar navbar-default" >
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<a class="navbar-brand" rel="home" href="#" title="Baja Racing">
-							<img id = "logo" src = "Resources/bajalogo.png"></a>
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" 
-							aria-expanded="false">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-
-					</div>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-						<ul class="nav navbar-nav">
-							<li><a href="home.html">Home  </a></li>
-							<li><a href="gallery.html">Gallery </a></li>
-							<li><a href="sponsors.html"><span class = "bigger_text">Sponsor</span></a></li> 
-							<li><a href="members.html"><span class = "bigger_text">Members</span></a></li>        
-							<li><a href="contact.html"><span class = "bigger_text">Contact</span></a></li>
-							<li>						<ul class="nav navbar-nav navbar-right social icon_links">
-							<a href="https://www.facebook.com/michiganbajaracing/?fref=ts" target="_blank"><img class = "icon" src ="Resources/facebook.png"></a>
-							<a href="https://twitter.com/mbajaracing" target="_blank"><img class = "icon" src ="Resources/twitter.png"></a>
-							<a href="https://maizepages.umich.edu/organization/baja" target="_blank"><img class = "icon" src ="Resources/mich_logo.png" ></a>
-						</ul></li>
-						</ul>
-
-					</div>
-
-				</div><!-- /.navbar-collapse -->
-
-			</nav>
-			<div class = "masthead"></div>
-		</div>
-
+	<div id = "top">
 	</div>
 	<br>
 	<br>
@@ -63,93 +32,29 @@
 	<div id = "title">Contact Us</div>
 	<div id = "contact_info">
 		<div id = "contact_list">
-			<div class = "contact" id = "students">For students: Contact our team captain Justin Lopas at <a href="mailto:jlopas@umich.edu" style = "text-decoration: underline;">jlopas@umich.edu</a> with questions about our teams.</div>
-			<hr>
-			<div class = "contact" id = "sponsors">For sponsors: Visit our <a style = "text-decoration: underline;" href="sponsors.html">Sponsorship page</a> and download the <a target = "_blank" href = "http://baja.engin.umich.edu/pdf/2016sponsorship.pdf" style = "text-decoration: underline;">Sponsorship packet</a></div>
-			<hr>
-			<div class = "contact" id = "webmaster">Contact the webmaster, Gabriel Bartosiewicz (<a href="mailto:grbarto@umich.com" style = "text-decoration:underline;">grbarto@umich.com</a>), for website related issues.</div>
-			<br>
-			<br>
-		</div>
-		<br>
-		<div id = "or">OR</div>
-		<br>
-		<button type="button" id = "mail" class="" data-toggle="modal" data-target="#sign_up">Send an E-mail</button>
-		<br>
-	</div>
+			<div class = "col-md-6">
+				<ul id = "contacts">
+					<li><div class = "contact" id = "students">For students: Contact our team captain Justin Lopas at <a href="mailto:jlopas@umich.edu" style = "text-decoration: underline;">jlopas@umich.edu</a> with questions about our teams.</div></li>
+					<br>
+					<li><div class = "contact" id = "sponsors">For sponsors: Visit our <a style = "text-decoration: underline;" href="sponsors.html">Sponsorship page</a> and download the <a target = "_blank" href = "http://baja.engin.umich.edu/pdf/2016sponsorship.pdf" style = "text-decoration: underline;">Sponsorship packet</a></div></li>
+					<br>
+					<li><div class = "contact" id = "webmaster">Contact the webmaster, Gabriel Bartosiewicz (<a href="mailto:grbarto@umich.com" style = "text-decoration:underline;">grbarto@umich.com</a>), for website related issues.</div></li>
+				</ul>
+				</div>
+			<div class = "col-md-6">
+				<h5>Find us at the Wilson Center</h5>
+				<div id = "map"></div>
+			</div>
+			</div>
+
+			</div>
+			<div id = "button_area">
+				<div id = "or">OR</div>
+				<br>
+				<button type="button" id = "mail" class="" data-toggle="modal" data-target="#sign_up">Send an E-mail</button>
+				<br>
+			</div>
 	<div id="footer">
-		<div class="container">
-			<br>
-			<hr>
-			<div class = "row">
-				<div class = "col-md-3 ">
-					<div class = "row">
-
-						<a href="https://www.facebook.com/michiganbajaracing?fref=ts" target="_blank"><img class = "icon" src ="Resources/facebook.png"></a>
-						<a href="https://twitter.com/mbajaracing" target="_blank"><img class = "icon" src ="Resources/twitter.png"></a>
-						<a href="https://maizepages.umich.edu/organization/baja" target="_blank"><img class = "icon" src ="Resources/mich_logo.png"></a>
-					</div>
-				</div>
-
-				<div class = "col-md-2">
-					<h6 class = "heads">About Us</h6>
-					
-					<a class = "bottom_link" href="home.html">Home</a>
-					<a class = "bottom_link" href="members.html">Members</a>
-					<a class = "bottom_link" href="#">News</a>
-
-				</div>
-				<div class = "col-md-2">
-					<h6 class = "heads">Contact</h6>
-
-					<a class = "bottom_link" href="#" target="_blank">Info</a>
-					<a class = "bottom_link" href="#" target="_blank">E-mail us</a>
-				</div>
-				<div class = "col-md-2">
-					<h6 class = "heads">Our School</h6>
-					<a class = "bottom_link" href="https://www.umich.edu/" target = "_blank">Michigan Homepage</a>
-					<a class = "bottom_link" href="http://teamprojects.engin.umich.edu/" target="_blank">Wilson Center</a>
-				</div>
-				<div class = "col-md-3">
-					<button type="button" class="btn btn-primary pull-right btn-lg">Give Online
-						<span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span></button>							
-					</div>
-				</div>
-
-			</div>
-		</div>
-		<div id="sign_up" class="modal fade" role="dialog">
-			<div class="modal-dialog">
-
-				<!-- Modal content-->
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<h4 class="modal-title">E-mail us</h4>
-					</div>
-					<div class="modal-body">
-						<form role="form">
-							<div class="form-group">
-								<label for="name">Name:</label>
-								<input type="text" class="form-control" id="name">
-							</div>
-							<div class="form-group">
-								<label for="email">Email address:</label>
-								<input type="email" class="form-control" id="email">
-							</div>
-							<div class="form-group">
-								<label for="message">Message:</label>
-								<input type="text" class="form-control" id="message">
-							</div>
-							<button type="submit" class="btn btn-default">Submit</button>
-						</form>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</body>
-	</html>
+	</div>
+</body>
+</html>

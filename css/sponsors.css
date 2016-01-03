@@ -1,6 +1,7 @@
 body
 {
 	background-color:white;
+
 }
 hr
 {
@@ -17,7 +18,7 @@ hr
 #title_wrap{
 	width:100%;
 	height: 500px;
-	background-image: url("Resources/sponsor_example.jpg");
+	background-image: url("../Resources/sponsor_example.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	position: relative;
@@ -27,10 +28,6 @@ hr
 	color:#ffbb33;
 }
 
-}
-span{
-	display:inline-block;
-}
 .title_header > p{
 
 	font-weight: 100;
@@ -52,6 +49,7 @@ span{
 	font-size: 5em;
 }
 #sponsor_info{
+
 	margin: 0 auto;
 	color:#333333;
 	width:80%;
@@ -101,6 +99,7 @@ span{
 .top_sponsor{
 	display:block;
 	margin:0 auto;
+
 }
 .sponsor_body{
 	padding-top: 50px;

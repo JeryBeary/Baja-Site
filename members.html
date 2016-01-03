@@ -1,8 +1,8 @@
 <html lang = "en-US">
 <head>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="stylesheet" type="text/css" href="standard.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/standard.css">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
@@ -11,48 +11,16 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="member.js"></script>
+	<script>
+		$(function(){
+
+			$("#top").load("header.html");  
+			$("#footer").load("footer.html");  
+		});
+	</script>
 </head>
 <body>
-	<div class = "top">
-		<div class = "nav">
-			<nav class="navbar navbar-default" >
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<a class="navbar-brand" rel="home" href="#" title="Baja Racing">
-							<img id = "logo" src = "Resources/bajalogo.png"></a>
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" 
-							aria-expanded="false">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-
-					</div>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-						<ul class="nav navbar-nav">
-							<li><a href="home.html">Home  </a></li>
-							<li><a href="#">Gallery </a></li>
-							<li><a href="sponsors.html"><span class = "bigger_text">Sponsor</span></a></li> 
-							<li><a href="members.html"><span class = "bigger_text">Members</span></a></li>        
-							<li><a href="contact.html"><span class = "bigger_text">Contact</span></a></li>
-						</ul>
-						<ul class="nav navbar-nav navbar-right social icon_links">
-								<a href="https://www.facebook.com/michiganbajaracing/?fref=ts" target="_blank"><img class = "icon" src ="Resources/facebook.png"></a>
-								<a href="https://twitter.com/mbajaracing" target="_blank"><img class = "icon" src ="Resources/twitter.png"></a>
-								<a href="https://maizepages.umich.edu/organization/baja" target="_blank"><img class = "icon" src ="Resources/mich_logo.png" ></a>
-						</ul>
-					</div>
-
-				</div><!-- /.navbar-collapse -->
-
-			</nav>
-			<div class = "masthead"></div>
-		</div>
-
+	<div id = "top">
 	</div>
 	<div id="myCarousel" class="carousel slide row" data-ride="carousel" data-interval = "5000">
 		<!-- Indicators -->
@@ -92,38 +60,53 @@
 		<p>The 2016 <span class = "highlight">Michigan Baja Team</span>, led by Justin Lopas, looks to continue the winning tradition of the <span class = "highlight">Michigan Baja Racing </span> team. Team members represent all class levels on campus and a wide variety of majors - anyone is welcome to join! Weekly meetings are held on Mondays during the school year at 7pm in the <span class ="highlight">Wilson Student Team Project Center</span> conference room. Contact Justin Lopas (<span class = "highlight">jlopas@umich.edu</span>) for more details.</p>
 	</div>
 	<hr class = "normal">
-	<h1 class="center_label" style="color:#FFCC00">Our Roster</h1>
+	<h1 class="center_label" style="color:#333333">Our Roster</h1>
 	<br>
 	<br>
 	<div id= "members">
 		<div class = "jumbotron">
 			<div class="row" style = "margin-left:5%;">
-				<div class = "col-md-6 pull-left">
-					<div class ="col-md-6 " >
+				<div class = "col-md-3 col-sm-6">
+					<div class = "person">
 						<img class = "member_portrait" src ="Resources/justin_lopas.jpg">
-					</div>
-					<div class ="col-md-6 pull-left" >
+
 						<div class = "captions">				
-							<h3 class = "member_caption"><span class = "title_highlight">Team Captain</span></h3>
-							<h3 class = "member_caption">Graduation: 2016</h3>
-							<h3 class = "member_caption">Justin Lopas</h3>
-							<h3 class = "member_caption">Mechanical Engineering</h3>
+							<p class = "member_caption">Justin Lopas, <span class = "title_highlight">Team Captain</span></p>
+							<p class = "member_caption">Graduation: 2016</p>
+							<p class = "member_caption">Mechanical Engineering</p>	
 						</div>	
+					</div>
+
+				</div>
+				<div class = "col-md-3 col-sm-6">
+						<img class = "member_portrait" src ="Resources/justin_lopas.jpg">
+
+						<div class = "captions">				
+							<p class = "member_caption">Justin Lopas, <span class = "title_highlight">Team Captain</span></p>
+							<p class = "member_caption">Graduation: 2016</p>
+							<p class = "member_caption">Mechanical Engineering</p>	
 					</div>	
 
 				</div>
-				<div class = "col-md-6 pull-left">
-					<div class ="col-md-6 " >
-						<img class = "member_portrait" src ="Resources/vincent_peng.jpg">
-					</div>
-					<div class ="col-md-6 pull-left" >	
-						<div class = "captions">			
-							<h3 class = "member_caption"><span class = "title_highlight">Technical Director</span></h3>
-							<h3 class = "member_caption">Graduation: 2016</h3>
-							<h3 class = "member_caption">Vincent Peng</h3>
-							<h3 class = "member_caption">Mechanical Engineering</h3>
-						</div>	
+				<div class = "col-md-3 col-sm-6">
+						<img class = "member_portrait" src ="Resources/justin_lopas.jpg">
+
+						<div class = "captions">				
+							<p class = "member_caption">Justin Lopas, <span class = "title_highlight">Team Captain</span></p>
+							<p class = "member_caption">Graduation: 2016</p>
+							<p class = "member_caption">Mechanical Engineering</p>	
 					</div>	
+
+				</div>
+				<div class = "col-md-3 col-sm-6">
+						<img class = "member_portrait" src ="Resources/justin_lopas.jpg">
+
+						<div class = "captions">				
+							<p class = "member_caption">Justin Lopas, <span class = "title_highlight">Team Captain</span></p>
+							<p class = "member_caption">Graduation: 2016</p>
+							<p class = "member_caption">Mechanical Engineering</p>	
+					</div>	
+
 				</div>
 			</div>
 			<hr class = "normal">
@@ -280,47 +263,47 @@
 		</div>
 	</div>
 	<br>		
-		<div id="footer">
-			<div class="container">
-				<br>
-				<hr>
-				<div class = "row">
+	<div id="footer">
+		<div class="container">
+			<br>
+			<hr>
+			<div class = "row">
 				<div class = "col-md-3 ">
-				<div class = "row">
-					
+					<div class = "row">
+						
 						<a href="https://www.facebook.com/michiganbajaracing?fref=ts" target="_blank"><img class = "icon" src ="Resources/facebook.png"></a>
 						<a href="https://twitter.com/mbajaracing" target="_blank"><img class = "icon" src ="Resources/twitter.png"></a>
 						<a href="https://maizepages.umich.edu/organization/baja" target="_blank"><img class = "icon" src ="Resources/mich_logo.png"></a>
 					</div>
 				</div>
 
-					<div class = "col-md-2">
-						<h6 class = "heads">About Us</h6>
-						
-							<a class = "bottom_link" href="home.html">Home</a>
-							<a class = "bottom_link" href="members.html">Members</a>
-							<a class = "bottom_link" href="#">News</a>
-											
-					</div>
-					<div class = "col-md-2">
-						<h6 class = "heads">Contact</h6>
+				<div class = "col-md-2">
+					<h6 class = "heads">About Us</h6>
+					
+					<a class = "bottom_link" href="home.html">Home</a>
+					<a class = "bottom_link" href="members.html">Members</a>
+					<a class = "bottom_link" href="#">News</a>
+					
+				</div>
+				<div class = "col-md-2">
+					<h6 class = "heads">Contact</h6>
 
-							<a class = "bottom_link" href="#" target="_blank">Info</a>
-							<a class = "bottom_link" href="#" target="_blank">E-mail us</a>
+					<a class = "bottom_link" href="#" target="_blank">Info</a>
+					<a class = "bottom_link" href="#" target="_blank">E-mail us</a>
+				</div>
+				<div class = "col-md-2">
+					<h6 class = "heads">Our School</h6>
+					<a class = "bottom_link" href="https://www.umich.edu/" target = "_blank">Michigan Homepage</a>
+					<a class = "bottom_link" href="http://teamprojects.engin.umich.edu/" target="_blank">Wilson Center</a>
+				</div>
+				<div class = "col-md-3">
+					<button type="button" class="btn btn-primary pull-right btn-lg">Give Online
+						<span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span></button>							
 					</div>
-					<div class = "col-md-2">
-						<h6 class = "heads">Our School</h6>
-							<a class = "bottom_link" href="https://www.umich.edu/" target = "_blank">Michigan Homepage</a>
-							<a class = "bottom_link" href="http://teamprojects.engin.umich.edu/" target="_blank">Wilson Center</a>
-					</div>
-					<div class = "col-md-3">
-						<button type="button" class="btn btn-primary pull-right btn-lg">Give Online
-							<span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span></button>							
-						</div>
 				</div>
 				
 			</div>
-			</div>
+		</div>
 
 
 	</body>

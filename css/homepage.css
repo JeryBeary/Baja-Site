@@ -1,7 +1,7 @@
 body{
 	height:100%;
 	width:100%;
-	background-image: url("Resources/baja_car.jpg");
+	background-image: url("../Resources/baja_car.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -55,12 +55,22 @@ body{
 	transition: height 0.4s;
 }
 #introduction{
+	padding-top: 10px;
 	min-height:800px;
 	width:100%;
-	background-color:#1a75ff;
+	background-color:#00274c;
 	padding-bottom: 40px;
 	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 
+}
+.box_header{
+	color: #ffdb4d;
+	font-weight: 200;
+	font-style: bold;
+	font-family: raleway;
+	text-align: center;
+	margin: 0 auto;
+	font-size:3em;
 }
 .entry_title{
 	color: #FFCC66;
@@ -93,17 +103,8 @@ hr.blog{
 	text-align: justify;
 	
 }
-.box_header{
-	color: #ffdb4d;
-	font-weight: 200;
-	font-style: bold;
-	font-family: raleway;
-	text-align: center;
-	margin: 0 auto;
-	font-size:3em;
-}
 #team_description{
-	margin-top: 40px;
+	margin-top: 10px;
 	font-family: "Open Sans";
 	text-align: justify;
 	text-justify: inter-word;
@@ -174,16 +175,17 @@ hr.blog{
 .achievement_caption{
 	
 	position: absolute;
-	top: 85%;
+	top: 50%;
 	left:0;
 	right:0;
 	text-align: center;
 	margin-left:auto;
 	margin-right: auto;
 	color: white;
-	font-weight: 100;
+	font-weight: 300;
 	font-family: lato;
-	font-size: 200%;
+	font-size: 2em;
+	text-shadow:0px 5px 20px black;
 
 }
 #caption_right{
