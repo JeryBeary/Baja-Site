@@ -21,20 +21,24 @@ hr.deep
     display: block;
     width: 100%;
 }
-.jumbotron{
+.people{
     border-radius: 20px 20px 20px 20px;
     width: 100%;
+    height: auto;
     margin: 0 auto;
     background-color:  #E5F2FF;
 }
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    background-size: cover;
     margin-top: 30px;
     overflow: hidden;
     width: 100%;
     height: 90vh;
     margin-left: auto;
     margin-right: auto;
+}
+.carousel-caption{
+    font-size: 2.5em;
+    font-family: "Open sans";
 }
 .carousel-control.left, .carousel-control.right {
     background-image: none;
@@ -53,9 +57,9 @@ hr.deep
     height:280px;
 }
 .member_caption{
-    font-family: lato;
-    font-size: 1.4em;
-    color:black;
+    font-family: "open sans";
+    font-size: 1.1em;
+    color:#333333;
 }
 div.captions{
 
@@ -110,3 +114,10 @@ ul.icons > li{
     }   
 
 }
+@media (max-width: 1100px) {
+    .carousel_caption{
+        font-size: 1.8em;
+    }
+
+}
+

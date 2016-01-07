@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<script src="member.js"></script>
+	<script src="members.js"></script>
 	<script>
 		$(function(){
 
@@ -27,20 +27,35 @@
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
 		</ol>
 
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
+
 			<div class="item active">
 				<img src="Resources/squad.jpg"  >
 				<div class="carousel-caption">
-					
+					The Team with our car for the 2014-2015 year, "Salt".
 				</div>
 			</div>
 			<div class="item">
 				<img src="Resources/squad2.jpg"  >
 				<div class="carousel-caption">
-					
+					Our team members with "Pepper", the car we designed in 2014.
+				</div>
+			</div>
+			<div class="item">
+				<img src="Resources/squad3.jpg"  >
+				<div class="carousel-caption">
+					Our members with the awards from Baja SAE Maryland.
+				</div>
+			</div>
+			<div class="item">
+				<img src="Resources/newer_members.jpg" >
+				<div class="carousel-caption">
+					Going for a test run with some of the newer members of Baja!				
 				</div>
 			</div>
 		</div>
@@ -64,7 +79,7 @@
 	<br>
 	<br>
 	<div id= "members">
-		<div class = "jumbotron">
+		<div class = "people">
 			<div class="row" style = "margin-left:5%;">
 				<div class = "col-md-3 col-sm-6">
 					<div class = "person">
@@ -79,31 +94,76 @@
 
 				</div>
 				<div class = "col-md-3 col-sm-6">
-						<img class = "member_portrait" src ="Resources/justin_lopas.jpg">
+						<img class = "member_portrait" src ="Resources/vincent_peng.jpg">
 
 						<div class = "captions">				
-							<p class = "member_caption">Justin Lopas, <span class = "title_highlight">Team Captain</span></p>
+							<p class = "member_caption">Vincent Peng, <span class = "title_highlight">Technical Director</span></p>
 							<p class = "member_caption">Graduation: 2016</p>
 							<p class = "member_caption">Mechanical Engineering</p>	
 					</div>	
 
 				</div>
 				<div class = "col-md-3 col-sm-6">
-						<img class = "member_portrait" src ="Resources/justin_lopas.jpg">
+						<img class = "member_portrait" src ="Resources/travis_mcintyre.jpg">
 
 						<div class = "captions">				
-							<p class = "member_caption">Justin Lopas, <span class = "title_highlight">Team Captain</span></p>
+							<p class = "member_caption">Travis McIntyre, <span class = "title_highlight">Manufacturing Director</span></p>
 							<p class = "member_caption">Graduation: 2016</p>
 							<p class = "member_caption">Mechanical Engineering</p>	
 					</div>	
 
 				</div>
 				<div class = "col-md-3 col-sm-6">
-						<img class = "member_portrait" src ="Resources/justin_lopas.jpg">
+						<img class = "member_portrait" src ="Resources/zechariah_schneider.jpg">
 
 						<div class = "captions">				
-							<p class = "member_caption">Justin Lopas, <span class = "title_highlight">Team Captain</span></p>
+							<p class = "member_caption">Zechariah Schneider, <span class = "title_highlight">Treasurer</span></p>
+							<p class = "member_caption">Graduation: 2017</p>
+							<p class = "member_caption">Computer Science</p>	
+					</div>	
+
+				</div>
+			</div>
+			<hr class = "normal">
+			<div class="row" style = "margin-left:5%;">
+				<div class = "col-md-3 col-sm-6">
+					<div class = "person">
+						<img class = "member_portrait" src ="Resources/member.jpg">
+
+						<div class = "captions">				
+							<p class = "member_caption">Cal Salisbury, <span class = "title_highlight">Suspension</span></p>
+							<p class = "member_caption">Graduation: 2017</p>
+							<p class = "member_caption">Mechanical Engineering</p>	
+						</div>	
+					</div>
+
+				</div>
+				<div class = "col-md-3 col-sm-6">
+						<img class = "member_portrait" src ="Resources/michael_martinez.jpg">
+
+						<div class = "captions">				
+							<p class = "member_caption">Michael Martinez, <span class = "title_highlight">Steering</span></p>
+							<p class = "member_caption">Graduation: 2018</p>
+							<p class = "member_caption">Mechanical Engineering</p>	
+					</div>	
+
+				</div>
+				<div class = "col-md-3 col-sm-6">
+						<img class = "member_portrait" src ="Resources/member.jpg">
+
+						<div class = "captions">				
+							<p class = "member_caption">Stephan Biggs, <span class = "title_highlight">Composites</span></p>
 							<p class = "member_caption">Graduation: 2016</p>
+							<p class = "member_caption">Mechanical Engineering</p>	
+					</div>	
+
+				</div>
+				<div class = "col-md-3 col-sm-6">
+						<img class = "member_portrait" src ="Resources/elizabeth_miranda.jpg">
+
+						<div class = "captions">				
+							<p class = "member_caption">Elizabeth Miranda, <span class = "title_highlight">Suspension</span></p>
+							<p class = "member_caption">Graduation: 2017</p>
 							<p class = "member_caption">Mechanical Engineering</p>	
 					</div>	
 
@@ -111,154 +171,75 @@
 			</div>
 			<hr class = "normal">
 			<div class="row" style = "margin-left:5%;">
-				<div class = "col-md-6 pull-left">
-					<div class ="col-md-6 " >
-						<img class = "member_portrait" src ="Resources/travis_mcintyre.jpg">
-					</div>
-					<div class ="col-md-6 pull-left" >		
-						<div class = "captions">		
-							<h3 class = "member_caption"><span class = "title_highlight">Manufacturing Director</span></h3>
-							<h3 class = "member_caption">Graduation: 2016</h3>
-							<h3 class = "member_caption">Travis McIntyre</h3>
-							<h3 class = "member_caption">Mechanical Engineering</h3>
+				<div class = "col-md-3 col-sm-6">
+					<div class = "person">
+						<img class = "member_portrait" src ="Resources/shivani_shah.jpg">
+
+						<div class = "captions">				
+							<p class = "member_caption">Shivani Shah, <span class = "title_highlight">Electronics & Brakes</span></p>
+							<p class = "member_caption">Graduation: 2017</p>
+							<p class = "member_caption">Electrical Engineering</p>	
 						</div>	
+					</div>
+
+				</div>
+				<div class = "col-md-3 col-sm-6">
+						<img class = "member_portrait" src ="Resources/abby_jaqua.jpg">
+
+						<div class = "captions">				
+							<p class = "member_caption">Abby Jaqua, <span class = "title_highlight">Driver Controls</span></p>
+							<p class = "member_caption">Graduation: 2017</p>
+							<p class = "member_caption">Mechanical Engineering</p>	
 					</div>	
 
 				</div>
-				<div class = "col-md-6 pull-left">
-					<div class ="col-md-6 " >
-						<img class = "member_portrait" src ="Resources/zechariah_schneider.jpg">
-					</div>
-					<div class ="col-md-6 pull-left" >	
-						<div class = "captions">			
-							<h3 class = "member_caption"><span class = "title_highlight">Treasurer</span></h3>
-							<h3 class = "member_caption">Graduation: 2017</h3>
-							<h3 class = "member_caption">Zechariah Schneider</h3>
-							<h3 class = "member_caption">Computer Engineering</h3>	
-						</div>
+				<div class = "col-md-3 col-sm-6">
+						<img class = "member_portrait" src ="Resources/jason_willig.jpg">
+
+						<div class = "captions">				
+							<p class = "member_caption">Jason Willig, <span class = "title_highlight">Joint/Axles</span></p>
+							<p class = "member_caption">Graduation: 2016</p>
+							<p class = "member_caption">Mechanical Engineering</p>	
 					</div>	
+
+				</div>
+				<div class = "col-md-3 col-sm-6">
+						<img class = "member_portrait" src ="Resources/member.jpg">
+
+						<div class = "captions">				
+							<p class = "member_caption">Alex Gardner, <span class = "title_highlight">Manufacturing</span></p>
+							<p class = "member_caption">Graduation: 2018</p>
+							<p class = "member_caption">Mechanical Engineering</p>	
+					</div>	
+
 				</div>
 			</div>
 			<hr class = "normal">
 			<div class="row" style = "margin-left:5%;">
-				<div class = "col-md-6 pull-left">
-					<div class ="col-md-6 " >
-						<img class = "member_portrait" src ="Resources/travis_mcintyre.jpg">
-					</div>
-					<div class ="col-md-6 pull-left" >		
-						<div class = "captions">		
-							<h3 class = "member_caption"><span class = "title_highlight">Manufacturing Director</span></h3>
-							<h3 class = "member_caption">Graduation: 2016</h3>
-							<h3 class = "member_caption">Travis McIntyre</h3>
-							<h3 class = "member_caption">Mechanical Engineering</h3>
+				<div class = "col-md-3 col-sm-6">
+					<div class = "person">
+						<img class = "member_portrait" src ="Resources/gabriel_bartosiewicz.jpg">
+
+						<div class = "captions">				
+							<p class = "member_caption">Gabriel Bartosiewicz, <span class = "title_highlight">Manufacturing</span></p>
+							<p class = "member_caption">Graduation: 2017</p>
+							<p class = "member_caption">Mechanical Engineering</p>	
 						</div>	
-					</div>	
+					</div>
 
 				</div>
-				<div class = "col-md-6 pull-left">
-					<div class ="col-md-6 " >
-						<img class = "member_portrait" src ="Resources/zechariah_schneider.jpg">
-					</div>
-					<div class ="col-md-6 pull-left" >	
-						<div class = "captions">			
-							<h3 class = "member_caption"><span class = "title_highlight">Treasurer</span></h3>
-							<h3 class = "member_caption">Graduation: 2017</h3>
-							<h3 class = "member_caption">Zechariah Schneider</h3>
-							<h3 class = "member_caption">Computer Engineering</h3>	
-						</div>
+				<div class = "col-md-3 col-sm-6">
+						<img class = "member_portrait" src ="Resources/member.jpg">
+
+						<div class = "captions">				
+							<p class = "member_caption">Kyle Grubnau, <span class = "title_highlight">Manufacturing</span></p>
+							<p class = "member_caption">Graduation: 2016</p>
+							<p class = "member_caption">Mechanical Engineering</p>	
 					</div>	
+
 				</div>
 			</div>
-			<hr class = "normal">
-			<div class="row" style = "margin-left:5%;">
-				<div class = "col-md-6 pull-left">
-					<div class ="col-md-6 " >
-						<img class = "member_portrait" src ="Resources/travis_mcintyre.jpg">
-					</div>
-					<div class ="col-md-6 pull-left" >		
-						<div class = "captions">		
-							<h3 class = "member_caption"><span class = "title_highlight">Manufacturing Director</span></h3>
-							<h3 class = "member_caption">Graduation: 2016</h3>
-							<h3 class = "member_caption">Travis McIntyre</h3>
-							<h3 class = "member_caption">Mechanical Engineering</h3>
-						</div>	
-					</div>	
 
-				</div>
-				<div class = "col-md-6 pull-left">
-					<div class ="col-md-6 " >
-						<img class = "member_portrait" src ="Resources/zechariah_schneider.jpg">
-					</div>
-					<div class ="col-md-6 pull-left" >	
-						<div class = "captions">			
-							<h3 class = "member_caption"><span class = "title_highlight">Treasurer</span></h3>
-							<h3 class = "member_caption">Graduation: 2017</h3>
-							<h3 class = "member_caption">Zechariah Schneider</h3>
-							<h3 class = "member_caption">Computer Engineering</h3>	
-						</div>
-					</div>	
-				</div>
-			</div>
-			<hr class = "normal">
-			<div class="row" style = "margin-left:5%;">
-				<div class = "col-md-6 pull-left">
-					<div class ="col-md-6 " >
-						<img class = "member_portrait" src ="Resources/travis_mcintyre.jpg">
-					</div>
-					<div class ="col-md-6 pull-left" >		
-						<div class = "captions">		
-							<h3 class = "member_caption"><span class = "title_highlight">Manufacturing Director</span></h3>
-							<h3 class = "member_caption">Graduation: 2016</h3>
-							<h3 class = "member_caption">Travis McIntyre</h3>
-							<h3 class = "member_caption">Mechanical Engineering</h3>
-						</div>	
-					</div>	
-
-				</div>
-				<div class = "col-md-6 pull-left">
-					<div class ="col-md-6 " >
-						<img class = "member_portrait" src ="Resources/zechariah_schneider.jpg">
-					</div>
-					<div class ="col-md-6 pull-left" >	
-						<div class = "captions">			
-							<h3 class = "member_caption"><span class = "title_highlight">Treasurer</span></h3>
-							<h3 class = "member_caption">Graduation: 2017</h3>
-							<h3 class = "member_caption">Zechariah Schneider</h3>
-							<h3 class = "member_caption">Computer Engineering</h3>	
-						</div>
-					</div>	
-				</div>
-			</div>
-			<hr class = "normal">
-			<div class="row" style = "margin-left:5%;">
-				<div class = "col-md-6 pull-left">
-					<div class ="col-md-6 " >
-						<img class = "member_portrait" src ="Resources/travis_mcintyre.jpg">
-					</div>
-					<div class ="col-md-6 pull-left" >		
-						<div class = "captions">		
-							<h3 class = "member_caption"><span class = "title_highlight">Manufacturing Director</span></h3>
-							<h3 class = "member_caption">Graduation: 2016</h3>
-							<h3 class = "member_caption">Travis McIntyre</h3>
-							<h3 class = "member_caption">Mechanical Engineering</h3>
-						</div>	
-					</div>	
-
-				</div>
-				<div class = "col-md-6 pull-left">
-					<div class ="col-md-6 " >
-						<img class = "member_portrait" src ="Resources/zechariah_schneider.jpg">
-					</div>
-					<div class ="col-md-6 pull-left" >	
-						<div class = "captions">			
-							<h3 class = "member_caption"><span class = "title_highlight">Treasurer</span></h3>
-							<h3 class = "member_caption">Graduation: 2017</h3>
-							<h3 class = "member_caption">Zechariah Schneider</h3>
-							<h3 class = "member_caption">Computer Engineering</h3>	
-							<p></p>
-						</div>
-					</div>	
-				</div>
 			</div>
 		</div>
 	</div>
