@@ -40,12 +40,13 @@ hr
 }
 #title{
 	position:relative;
-	top:70%;
+	top:40%;
 	text-align: center;
 	color:white;
 	font-weight:800;
 	margin-top: 100px;
-	font-family: lato;
+	font-family: raleway;
+	text-shadow:0px 5px 20px black;
 	font-size: 5em;
 }
 #sponsor_info{
@@ -103,6 +104,7 @@ hr
 }
 .sponsor_body{
 	padding-top: 50px;
+	padding-bottom: 20px;
 	min-height:200px;
 	background-color: white;
 }
@@ -142,8 +144,8 @@ hr
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 120px;
-	width: 200px;	
+	height: 80px;
+	width: 180px;	
 }
 .replacement_logo{
 	margin-left: auto;
@@ -166,10 +168,24 @@ hr
 	text-align: center;
 	color:#0099ff;
 }
+@media (max-width: 1000px) {
+	.title_header > p{
+		font-size: 1.5em;
+	}
+}
 @media (max-width: 788px) {
 	img{
 		display:block;
 		margin:0 auto;
 	}
+	#title_wrap{
+		height:300px;
+	}
+	#title{
+		font-size: 3em;
+	}
 
+}
+@media(max-width: 500px){
+	
 }

@@ -1,5 +1,5 @@
 body{
-	height:100%;
+	height:auto;
 	width:100%;
 	background-image: url("../Resources/baja_car4.jpg");
 	background-size: 100% 100%;
@@ -21,7 +21,7 @@ ul  {
  padding-left:0;   
 }
 ul li  {
- list-style-position:inside
+ list-style-position:inside;
 }
 #contacts > hr {
 	border-color:#333333;
@@ -41,6 +41,7 @@ a{
 }
 
 #contact_info{
+	width:100%;
 	overflow:auto;
 	min-height: 420px;
 	background-color: #3399ff;
@@ -106,11 +107,23 @@ a{
 	height:350px;
 	padding-bottom: 20px;
 }
+@media (min-width: 1600px){
+	#contacts > hr {
+
+	width:80%;
+}
+}
 @media (max-width: 788px) {
 	#contact_list{
 		width:100%;
 	}
 	.contact{
 		width:100%;
+	}
+}
+@media (max-width: 600px) {
+	iframe{
+		width:90%;
+		margin: 0 auto;
 	}
 }

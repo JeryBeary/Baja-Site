@@ -1,22 +1,26 @@
 body{
 	height:100%;
 	width:100%;
-	background-image: url("../Resources/baja_car.jpg");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+
 
 }
 
 .center_label{
-	margin-top: 30vh;
 	width:100%;
 	text-align: center;
 	font-family: "Open Sans";
 	font-size: 700%;
 	font-weight: 100;
 	color: white;
-	min-height: 70vh;
+	height: 100vh;
+	background-image: url("../Resources/baja_car.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.center_label_inner{
+	position: relative;
+	top:30%;
 }
 
 .achievements{
@@ -87,7 +91,7 @@ hr.blog{
 	color:white;
 }
 .member_notice{
- 	height:300px;
+ 	height:auto;
 	width: 100%;
 	background-color: #ffd633;
 	font-weight: 100;
@@ -96,11 +100,12 @@ hr.blog{
 	font-size: 2.3em;
 }
 #member_message{
-	width:70%;
-	position: relative;
-	top:20%;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	margin: 0 auto;
+	width:70%;
 	text-align: justify;
+	text-justify: inter-word;
 	
 }
 #team_description{
@@ -185,7 +190,7 @@ hr.blog{
 	font-weight: 300;
 	font-family: lato;
 	font-size: 2em;
-	text-shadow:0px 5px 20px black;
+ 
 
 }
 #caption_right{
@@ -221,14 +226,40 @@ hr.blog{
 	font-size: 3em;
 
 }
+.title_image{
+	width: 490px; 
+	height:300px; 
+	border-radius: 10px 10px 10px 10px;
+}
+@media (min-width: 1700px) {
+	.title_image{
+		width:600px;
+		height:400px;
+	}
+
+	.member_notice{
+		padding-bottom: 100px;
+	}
+	.
+	.achievements{
+		height: 20vh;
+	}
+	.text_picture{
+		margin-top: 100px;
+		width: 80%;
+	}
+
+}
 @media (max-width: 788px) {
 	.column_workshop{
 		display:block;
 		padding-top: 10px;
 		margin: 0 auto;
 	}
-	.member_notice{
-		height:500px;
+	.text_picture{
+		width:65%;
+		position: relative;
+		top: 90;
 	}
 	.achievement_text{
 		font-size: 1.5em;
@@ -236,25 +267,58 @@ hr.blog{
 	.text_picture{
 		width:80%;
 	}
+
 }
+
 @media (max-width: 1000px) {
 	.column_workshop{
 		display:block;
 		padding-top: 10px;
 		margin: 0 auto;
 	}
+	.btn-button-name, .btn-button-name:link {
+		margin-top:40px;
+	}
 }
 
 @media (min-width: 1400px) {
-	.center_label{
-		font-size: 900%;
-	}
-	.text_picture{
-		width:65%;
-		position: relative;
-		top:150;
-	}
+
 	.achievements{
 		max-height:70vh;
 	}
 }
+@media (max-width: 600px) {
+	#member_message{
+		font-size: .7em;
+		text-align: left;
+	}
+	#team_description{
+		text-align: left;
+	}
+	#team_title{
+		font-size: 50%;
+	}
+}
+@media (max-width: 520px) {
+
+	.title_image{
+		height:250px;
+		width:100%;
+	}
+	.column_workshop{
+		display:block;
+		padding-top: 10px;
+		margin: 0 auto;
+		width:100%;
+	}
+	.center_label{
+		height:75vh;
+	}
+	.btn-button-name, .btn-button-name:link {
+		margin-top:40px;
+	}
+	#team_description{
+		font-size: 1.4em;
+	}
+}
+
