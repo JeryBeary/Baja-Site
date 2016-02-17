@@ -22,7 +22,12 @@ body{
 	position: relative;
 	top:30%;
 }
-
+/*
+.title_background {
+	background-color: #000000;
+	opacity: 0.6;
+}
+*/
 .achievements{
 	min-height: 90vh;
 	width:100%;
@@ -73,9 +78,22 @@ body{
 	font-style: bold;
 	font-family: raleway;
 	text-align: center;
-	margin: 0 auto;
+	//border: 5px solid #ffdb4d;
+	margin: 15px auto;
 	font-size:3em;
 }
+
+.box_header2{
+	color: #0076e6;
+	font-weight: 200;
+	font-style: bold;
+	font-family: raleway;
+	text-align: center;
+	//border: 5px solid gray;
+	margin: 0 auto;
+	font-size:1.5em;
+}
+
 .entry_title{
 	color: #FFCC66;
 }
@@ -151,6 +169,8 @@ hr.blog{
 	position: absolute;
 	font-size: 100%;
 	font-family: raleway;
+	padding: 3px;
+	//border: 3px solid blue;
 	margin: auto;
 	top: 20%;
 	bottom: 0;
@@ -183,10 +203,13 @@ hr.blog{
 	top: 50%;
 	left:0;
 	right:0;
+	width: 80%;
 	text-align: center;
+	border: 2px solid yellow;
+	background-color:#00274c;
 	margin-left:auto;
 	margin-right: auto;
-	color: white;
+	color: #ffdb4d;
 	font-weight: 300;
 	font-family: lato;
 	font-size: 2em;
