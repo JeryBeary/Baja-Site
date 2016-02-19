@@ -1,8 +1,7 @@
 body{
 	height:100%;
 	width:100%;
-
-
+	font-size:100% // 16 px
 }
 
 .center_label{
@@ -56,12 +55,12 @@ body{
 	color:black;
 }
 #news_feed{
-	overflow: scroll;
+	//overflow: scroll;
 	margin: 0 auto;
-	height:600px;
+	height: 100%;
 	width: 100%;
 	background-color:#333333;
-	transition: height 0.4s;
+	//transition: height 0.4s;
 }
 #introduction{
 	padding-top: 10px;
@@ -95,6 +94,11 @@ body{
 }
 
 .entry_title{
+	width: 70%;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	margin: 0 auto;
 	color: #FFCC66;
 }
 .entry{
@@ -170,7 +174,7 @@ hr.blog{
 	font-size: 100%;
 	font-family: raleway;
 	padding: 3px;
-	//border: 3px solid blue;
+	border: 3px solid yellow;
 	margin: auto;
 	top: 20%;
 	bottom: 0;
@@ -179,8 +183,8 @@ hr.blog{
 }
 .img_wrap{
 	display:inline-block;
-	width:100%;
-	max-height: 50%;	
+	max-width:100%;
+	max-height:50%;	
 }
 .img_wrap:hover .achievement_text {
 	visibility: visible;
