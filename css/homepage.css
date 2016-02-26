@@ -65,13 +65,13 @@ body{
 	color:black;
 }
 #news_feed{
-	//overflow: scroll;
+	overflow: scroll;
 	padding-top: 100px;
 	margin: 0 auto;
 	height: 100%;
 	width: 100%;
 	background-color:#5f5f5f;
-	//transition: height 0.4s;
+	transition: height 0.4s;
 }
 #introduction{
 	padding-top: 20px;
