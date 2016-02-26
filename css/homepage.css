@@ -28,9 +28,19 @@ body{
 }
 */
 .achievements{
-	min-height: 90vh;
-	width:100%;
+	//min-height: 90vh;
+	///height:100%
+	//width:100%;
 	background-color:  rgba(51, 153, 255, .8);
+	padding-top: 20px;
+	padding-bottom: 100px;
+	border-top: 5px solid yellow;
+	border-bottom: 5px solid yellow;
+	min-height:800px;
+	width:100%;
+	//background-color:#00274c;
+	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
 }
 .btn-button-name, .btn-button-name:link {
 
@@ -64,11 +74,13 @@ body{
 	//transition: height 0.4s;
 }
 #introduction{
-	padding-top: 10px;
+	padding-top: 20px;
+	padding-bottom: 100px;
+	border-top: 5px solid yellow;
+	border-bottom: 5px solid yellow;
 	min-height:800px;
 	width:100%;
 	background-color:#00274c;
-	padding-bottom: 40px;
 	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 
 }
@@ -79,7 +91,10 @@ body{
 	font-family: raleway;
 	text-align: center;
 	//border: 5px solid #ffdb4d;
-	margin: 15px auto;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
 	font-size:3em;
 }
 
@@ -132,6 +147,7 @@ hr.blog{
 }
 #team_description{
 	margin-top: 10px;
+	margin-bottom: 40px;
 	font-family: "Open Sans";
 	text-align: justify;
 	text-justify: inter-word;
@@ -163,6 +179,8 @@ hr.blog{
 	bottom: 0;
 	left: 0;
 	right: 0;
+	width: 100%;
+	height: 100%;
 	background: rgba(0, 0, 0, 0.8);
 	visibility: hidden;
 	opacity: 0;
@@ -174,7 +192,7 @@ hr.blog{
 	font-size: 100%;
 	font-family: raleway;
 	padding: 3px;
-	border: 3px solid yellow;
+	//border: 3px solid yellow;
 	margin: auto;
 	top: 20%;
 	bottom: 0;
@@ -183,8 +201,10 @@ hr.blog{
 }
 .img_wrap{
 	display:inline-block;
-	max-width:100%;
-	max-height:50%;	
+	width: 100%;
+	height: 375px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .img_wrap:hover .achievement_text {
 	visibility: visible;
@@ -269,7 +289,7 @@ hr.blog{
 	}
 	.
 	.achievements{
-		height: 20vh;
+		//height: 20vh;
 	}
 	.text_picture{
 		margin-top: 100px;
@@ -311,7 +331,7 @@ hr.blog{
 @media (min-width: 1400px) {
 
 	.achievements{
-		max-height:70vh;
+	//	max-height:70vh;
 	}
 }
 @media (max-width: 600px) {
