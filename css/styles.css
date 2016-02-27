@@ -8,6 +8,8 @@ hr.normal {
     color:#99CCFF;
     width:90%;
 }
+hr.first {}
+
 hr.deep
 {
     border: 0;
@@ -147,6 +149,15 @@ ul.icons > li{
         height:400px;
     }
 
+}
+
+@media screen and (max-width: 900px) {
+	#myCarousel {
+		display:none;
+	}
+	hr.first {
+		margin-top: 200px;
+	}
 }
 
 // From Worthy stylesheet
