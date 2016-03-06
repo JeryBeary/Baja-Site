@@ -263,9 +263,16 @@ span.contact {
     border: none;
     width: 200px;
     margin: 10px auto;
-    background-color: #e6e6e6;
+	color: #333333;
+    background-color: white;
     border-radius: 200px 200px 200px 200px;
     font-family: montserrat;
     text-align: center;
     vertical-align: center;
 }
+
+#mail:hover{
+	-webkit-transition: color .50s, background-color .50s;
+	-moz-transition: color .50s, background-color .50s;
+    background-color: #ffdb4d;
+	color: #333333;
