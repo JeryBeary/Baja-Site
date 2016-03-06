@@ -267,7 +267,10 @@ ul.links > li{
         margin-top: -15px;
         float:right;
 
-    }    
+    }
+	.social {
+		display: none;
+	} 
 
 }
 
