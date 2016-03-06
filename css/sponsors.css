@@ -13,7 +13,7 @@ hr
 .title_header{
 	width:100%;
 	min-height: 200px;
-	float: left;
+	/*float: left;*/
 	margin-bottom: 30px;
 }	
 #title_wrap{
@@ -23,7 +23,6 @@ hr
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	position: relative;
-	top:-20;
 }
 .highlight{
 	color:#ffbb33;
