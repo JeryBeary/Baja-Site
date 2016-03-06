@@ -255,3 +255,17 @@ span.contact {
 	margin: 0px auto;
 	display: block;
 }
+
+#mail {
+    font-size: 20px;
+    height: 60px;
+    display: block;
+    border: none;
+    width: 200px;
+    margin: 10px auto;
+    background-color: #e6e6e6;
+    border-radius: 200px 200px 200px 200px;
+    font-family: montserrat;
+    text-align: center;
+    vertical-align: center;
+}
