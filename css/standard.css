@@ -33,7 +33,6 @@
     box-shadow: 0 8px 6px -6px black;
     background-color: #333333;
     min-height: 80px;
-    /*background-color: rgba(0, 34, 99, .7);*/
     border-style: none;
     font-weight: 200;
     color: #FFFF85;
@@ -62,7 +61,6 @@
 
     display: inline-block;
     float: none;
-    margin: 0;
     text-align: center;
     margin:0 auto;
     margin-left: 60px;
@@ -80,26 +78,68 @@
     font-family: raleway;
     min-width:10px;
     font-size: 130%;
-
 }
+
+/*******************************************************************\
+ *	#Social media icons
+\*******************************************************************/
+.social {
+	/* I'm not sure why the other menu items have a height of 80px,
+ 	 * and this one defaults to 60px. This is just hard-coded in */
+	height: 80px;
+	margin: 0px 30px;
+}
+.social>li {
+	/* This makes the links horizontal */
+	float: left;
+}
+.social>li>a {
+	/* I had trouble getting the icons to center vertically, so I
+     * do this hacky thing where I increase the top margin of each one.
+     * I tried the techniques at the site below, and none of them worked.
+     * May be worth revisiting this some day.
+     * https://www.w3.org/Style/Examples/007/center.en.html
+     */
+	max-height: 80px;
+    min-width:10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto;
+	margin-top: 7px;
+	line-height: 50px;
+}
+.social>li>a:hover,
+.social>li>a:focus {
+	-webkit-transition: -webkit-filter .75s;
+    -moz-transition: -webkit-filter .75s;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+    background-color: #333333;
+}
+
 .dropdown-menu {
     background-color: #333333;
 }
+
 .dropdown-menu > li > a{
     color:#0099ff;
 }
+
 ul.links{
     padding-top: 25px;
     margin-left: 0;
     padding: 0;
     list-style-type: none;
 }
+
 ul.links > li{
     display:block;
 }
+
 .navbar-header{
     max-height: 100%;
 }
+
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	-webkit-transition: color .55s, background-color .55s;
@@ -107,6 +147,7 @@ ul.links > li{
     color: #3366FF;
     background-color: #FFDB4D;
 }
+
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
