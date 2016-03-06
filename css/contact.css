@@ -250,6 +250,7 @@ span.contact {
 #google_map {
 	width: 80%;
 	height: 50%;
+	min-height: 400px;
 	/* The two lines below actually center the map. Yes! */
 	margin: 0px auto;
 	display: block;
