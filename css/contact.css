@@ -130,11 +130,10 @@ hr.blog{
 	width:70%;
 	text-align: center;
 }
-#team_description{
+#contact_info{
 	margin-top: 10px;
 	font-family: "Open Sans";
-	text-align: justify;
-	text-justify: inter-word;
+	text-align: left;
 	font-weight: 100;
 	font-size: 1.7em;
 	width:80%;
@@ -236,3 +235,22 @@ hr.blog{
 	margin-top: 90px;
 	width: 50%;
 	margin-left:auto;
+}
+
+span.contact {
+	color: #ffdb4d;
+}
+
+.map_wrapper {
+	/* This doesn't appear to do anything. Remove later... */
+	display: block;
+	margin: 0px auto;
+}
+
+#google_map {
+	width: 80%;
+	height: 50%;
+	/* The two lines below actually center the map. Yes! */
+	margin: 0px auto;
+	display: block;
+}
