@@ -108,8 +108,8 @@
 	margin-top: 7px;
 	line-height: 50px;
 }
-.social>li>a:hover,
-.social>li>a:focus {
+.social li>a:hover,
+.social li>a:focus {
 	-webkit-transition: -webkit-filter .75s;
     -moz-transition: -webkit-filter .75s;
 	-webkit-filter: grayscale(100%);
@@ -307,6 +307,11 @@ hr.footer_hr{
 .bottom_link{
     color:white;
     display: block;
+}
+.bottom_link:hover {
+	text-decoration: none;
+	color: #ffdb4d;
+	-webkit-transition: color 0.5s;
 }
 .center_block {
     display: block;

@@ -3,7 +3,6 @@ body{
 	width:100%;
 	font-size:100% // 16 px
 }
-
 .center_label{
 	width:100%;
 	text-align: center;
@@ -140,6 +139,15 @@ hr.blog{
 	margin-left: auto;
 	margin-right:auto;
 	color:white;
+}
+#contact_info a {
+	color: #50A6C2;
+}
+
+#contact_info a:hover {
+	text-decoration: none;
+	color: white;
+	-webkit-animation: 0.5s color;
 }
 .achievement_image{
 	position: relative;

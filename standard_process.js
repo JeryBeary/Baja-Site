@@ -14,6 +14,7 @@ $(function(){  // $(document).ready shorthand
 
 	   var loc4 = '';
 	$('#team_title').hide().fadeIn(1500);
+/*
 var height = $(".img_wrap").height();
 $("#image_4").hover(
 	function()
@@ -56,7 +57,7 @@ $("#image_1").hover(
 		$("#caption_1").stop().animate({'margin-top': ($(".img_wrap").height())*.01}, 300);
 	}
 	);
-	
+*/	
 });
 
 $(function()
@@ -67,11 +68,6 @@ $(function()
 		        1000);
 		});
 	});
-
-
-
-
-
 
 /*var waypoint = new Waypoint({
   element: document.getElementById('introduction'),
