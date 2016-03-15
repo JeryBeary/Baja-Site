@@ -8,6 +8,8 @@ hr.normal {
     color:#99CCFF;
     width:90%;
 }
+hr.first {}
+
 hr.deep
 {
     border: 0;
@@ -20,7 +22,7 @@ hr.deep
     height:auto;
     margin:0 auto;
     display: block;
-    width: 100%;
+    width: 87%;
 }
 .people{
     border-radius: 20px 20px 20px 20px;
@@ -33,13 +35,17 @@ hr.deep
     margin-top: 30px;
     overflow: hidden;
     width: 100%;
-    height: 90vh;
+	min-height: 700px;
+	height: 700px;
+    //height: 90vh;
     margin-left: auto;
     margin-right: auto;
 }
 .carousel-caption{
     font-size: 2.2em;
     font-family: raleway;
+	opacity: 1.0;
+	background-color: #1f1f1f;
 }
 .carousel-control.left, .carousel-control.right {
     background-image: none;
@@ -63,12 +69,18 @@ hr.deep
     color:#333333;
 }
 div.captions{
-
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+div.verscaptions{
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 #member_description{
     font-size: 1.5em;
     font-weight: 100;
     font-family: sans-serif;
+	text-align: center;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -139,3 +151,52 @@ ul.icons > li{
     }
 
 }
+
+@media screen and (max-width: 900px) {
+	#myCarousel {
+		display:none;
+	}
+	hr.first {
+		margin-top: 200px;
+	}
+}
+
+// From Worthy stylesheet
+/* Isotope Items
+---------------------------------- */
+.filters {
+	margin: 0 0 30px 0;
+}
+.filters .nav-pills > li {
+	margin-right: 2px;
+	margin-bottom: 2px;
+}
+.filters .nav-pills > li + li {
+	margin-left: 0px;
+}
+.text-center.filters .nav-pills > li {
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	display: inline-block;
+	float: none;
+}
+.isotope-container {
+	overflow: hidden;
+}
+.isotope-item {
+	margin-bottom: 20px;
+}
+.isotope-item .btn-default {
+	color: #999999;
+}
+.isotope-item .btn-default:hover {
+	color: #ffffff;
+}
+@media (max-width:480px) {
+	.filters .nav-pills > li {
+		width: 100%;
+		display: block;
+	}
+}
+

@@ -1,11 +1,17 @@
 body{
 	height:100%;
 	width:100%;
+	font-size:100% // 16 px
+}
 
-
+a:hover {
+	text-decoration: none;
+	color: white;
+	-webkit-transition: color 0.8s;
 }
 
 .center_label{
+	position: relative;
 	width:100%;
 	text-align: center;
 	font-family: "Open Sans";
@@ -13,7 +19,10 @@ body{
 	font-weight: 100;
 	color: white;
 	height: 100vh;
-	background-image: url("../Resources/baja_car.jpg");
+	min-height:800px;
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url("../Resources/baja_car.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -22,11 +31,14 @@ body{
 	position: relative;
 	top:30%;
 }
-
 .achievements{
-	min-height: 90vh;
+	padding-top: 20px;
+	padding-bottom: 100px;
+	min-height:800px;
 	width:100%;
-	background-color:  rgba(51, 153, 255, .8);
+	background-color: #526F35;
+	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
 }
 .btn-button-name, .btn-button-name:link {
 
@@ -52,18 +64,21 @@ body{
 }
 #news_feed{
 	overflow: scroll;
+	padding-top: 100px;
 	margin: 0 auto;
-	height:600px;
+	height: 100%;
 	width: 100%;
-	background-color:#333333;
+	background-color:#5f5f5f;
 	transition: height 0.4s;
 }
 #introduction{
-	padding-top: 10px;
+	padding-top: 20px;
+	padding-bottom: 100px;
+	border-top: 5px solid #ffdb4d;
+	border-bottom: 5px solid #ffdb4d;
 	min-height:800px;
 	width:100%;
 	background-color:#00274c;
-	padding-bottom: 40px;
 	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 
 }
@@ -73,10 +88,32 @@ body{
 	font-style: bold;
 	font-family: raleway;
 	text-align: center;
-	margin: 0 auto;
+	//border: 5px solid #ffdb4d;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
 	font-size:3em;
 }
+
+.box_header2{
+	color: #0076e6;
+	font-weight: 200;
+	font-style: bold;
+	font-family: raleway;
+	text-align: center;
+	//border: 5px solid gray;
+	padding-top: 40px;
+	margin: 0 auto;
+	font-size:1.5em;
+}
+
 .entry_title{
+	width: 70%;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	margin: 0 auto;
 	color: #FFCC66;
 }
 .entry{
@@ -101,15 +138,14 @@ hr.blog{
 }
 #member_message{
 	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-bottom: 120px;
 	margin: 0 auto;
 	width:70%;
-	text-align: justify;
-	text-justify: inter-word;
-	
+	text-align: center;
 }
 #team_description{
 	margin-top: 10px;
+	margin-bottom: 40px;
 	font-family: "Open Sans";
 	text-align: justify;
 	text-justify: inter-word;
@@ -120,6 +156,7 @@ hr.blog{
 	margin-right:auto;
 	color:white;
 }
+
 .achievement_image{
 	position: relative;
 	height:100%;
@@ -131,7 +168,6 @@ hr.blog{
 }
 
 .achievement_text{
-
 	color:white;
 	font-size: 2em;
 	text-align: center;
@@ -141,8 +177,11 @@ hr.blog{
 	bottom: 0;
 	left: 0;
 	right: 0;
+	width: 100%;
+	height: 100%;
 	background: rgba(0, 0, 0, 0.8);
 	visibility: hidden;
+	/* Hover off */
 	opacity: 0;
 	-webkit-transition: opacity 0.8s;
 
@@ -151,6 +190,8 @@ hr.blog{
 	position: absolute;
 	font-size: 100%;
 	font-family: raleway;
+	padding: 3px;
+	//border: 3px solid yellow;
 	margin: auto;
 	top: 20%;
 	bottom: 0;
@@ -159,16 +200,23 @@ hr.blog{
 }
 .img_wrap{
 	display:inline-block;
-	width:100%;
-	max-height: 50%;	
+	width: 100%;
+	height: 375px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .img_wrap:hover .achievement_text {
+	/* Hover on */
 	visibility: visible;
+	-webkit-transition: opacity 0.8s;
 	opacity: 1;
 }
-.img_wrap:hover .achievement_image{
-	background-color: black;
+.img_wrap:hover .achievement_caption {
+	/* Hover on */
+	-webkit-transition: opacity 0.5s linear;
+	opacity: 0;
 }
+
 #update_button{
 
 	margin-left:auto;
@@ -178,42 +226,45 @@ hr.blog{
 	right:0;
 }
 .achievement_caption{
-	
 	position: absolute;
 	top: 50%;
 	left:0;
 	right:0;
+	width: 80%;
 	text-align: center;
+	border: 2px solid #ffdb4d;
+	background-color:#00274c;
 	margin-left:auto;
 	margin-right: auto;
-	color: white;
+	color: #ffdb4d;
 	font-weight: 300;
 	font-family: lato;
 	font-size: 2em;
- 
-
+	/* Hover off -- doesn't seem to work */
+	-webkit-transition: opacity 0.5s linear;
+	opacity: 1;
 }
 #caption_right{
 	position: absolute;
 	top: 90%;	
 }
 .achievement_header{
-
-	padding-bottom: 80px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	width:100%;
-	background-color:white;
-	color:#595959;
+	/*background-color:white;*/
+	/*color:#595959;*/
 	overflow: auto;
 }
 #achievement_notice{
-	margin-top: 90px;
+	/*margin-top: 40px;*/
 	width: 50%;
 	margin-left:auto;
 	margin-right: auto;
 	text-align: center;
-	color:#595959;	
+	color: #ffdb4d;
 	font-family: lato;
-	font-size: 2em;
+	font-size: 4em;
 
 }
 #achievement_symbol{
@@ -221,13 +272,13 @@ hr.blog{
 	margin-left:auto;
 	margin-right: auto;
 	text-align: center;
-	color:#595959;	
+	color: #ffdb4d;
 	font-family: lato;
 	font-size: 3em;
 
 }
 .title_image{
-	width: 490px; 
+	width: 100%; 
 	height:300px; 
 	border-radius: 10px 10px 10px 10px;
 }
@@ -242,7 +293,7 @@ hr.blog{
 	}
 	.
 	.achievements{
-		height: 20vh;
+		//height: 20vh;
 	}
 	.text_picture{
 		margin-top: 100px;
@@ -291,7 +342,7 @@ hr.blog{
 @media (min-width: 1400px) {
 
 	.achievements{
-		max-height:70vh;
+	//	max-height:70vh;
 	}
 }
 @media (max-width: 600px) {

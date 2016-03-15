@@ -1,129 +1,286 @@
 body{
-	height:auto;
+	height:100%;
 	width:100%;
-	background-image: url("../Resources/baja_car4.jpg");
+	font-size:100% 16 px
+}
+.center_label{
+	width:100%;
+	text-align: center;
+	font-family: "Open Sans";
+	font-size: 700%;
+	font-weight: 100;
+	color: white;
+	height: 100vh;
+	background-image: url("../Resources/baja_car.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-attachment: fixed;	
+	background-attachment: fixed;
 }
-h5{
-	text-decoration: underline;
-	text-align: center;
-	color:white;
-	font-size:2.3em;
+.center_label_inner{
+	position: relative;
+	top:30%;
 }
-hr{
-	border-color: #3399ff;
-	color:#99CCFF;
-	width:90%;
+/*
+.title_background {
+	background-color: #000000;
+	opacity: 0.6;
 }
-ul  {
- padding-left:0;   
-}
-ul li  {
- list-style-position:inside;
-}
-#contacts > hr {
-	border-color:#333333;
-	color:black;
-	width:60%;
-}
-a{
-	color:#FFBB4D;
-}
-#title{
-	padding-top: 30px;
-	min-height: 100px;
-	font-family: montserrat;
-	color:white;
-	text-align: center;
-	font-size: 3em;
-}
-
-#contact_info{
+*/
+.achievements{
+	min-height: 90vh;
 	width:100%;
-	overflow:auto;
-	min-height: 420px;
-	background-color: #3399ff;
+	background-color:  rgba(51, 153, 255, .8);
 }
-.contact{
-	font-size: 2em;
-	text-align: left;
-	font-family: "open sans";
-	height:auto;
-	margin:0 auto;
-	width:90%;
+.btn-button-name, .btn-button-name:link {
+
+	border-radius: 0px;
+	background-color: transparent;
+	margin-top: 160px;
+	font-weight: 700;
+	box-shadow: none;
+	color: white;
+	border: 2px solid white;
 }
-#contact_list{
-	background-color: #3399ff;
-	margin:0 auto;
-	height: auto;
-	width: 100%;
+.btn-button-name:active, .btn-button-name:hover {
+
+	background-color: white;
+	color: black;
+	-webkit-transition: color .55s, background-color .55s;
+	-moz-transition: color .55s, background-color .55s;
 }
-#students{
-	color:white;
-}
-#sponsors{
+
+.btn-button-name:focus{
+	background-color: white;
 	color:black;
 }
-#webmaster{
-	color:#cccccc;
+#news_feed{
+	overflow: scroll;
+	padding-top: 100px;
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	background-color:#5f5f5f;
+	transition: height 0.4s;
 }
-#or{
+#contact{
+	padding-top: 100px;
+	min-height:800px;
+	width:100%;
+	background-color:#00274c;
+	padding-bottom: 40px;
+	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}
+.box_header{
+	color: #ffdb4d;
+	font-weight: 200;
+	font-style: bold;
+	font-family: raleway;
+	text-align: center;
+	border: 5px solid #ffdb4d;
+	margin: 15px auto;
+	font-size:3em;
+}
+
+.box_header2{
+	color: #0076e6;
+	font-weight: 200;
+	font-style: bold;
+	font-family: raleway;
+	text-align: center;
+	border: 5px solid gray;
+	padding-top: 40px;
+	margin: 0 auto;
+	font-size:1.5em;
+}
+
+.entry_title{
+	width: 70%;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	color: #FFCC66;
+}
+.entry{
+	text-align: justify;
+	margin:0 auto;
+	width:90%;
+	color:white;
+	font-size: 1.2em;
+}
+hr.blog{
+	border: dashed 2px;
+	color:white;
+}
+.member_notice{
+ 	height:auto;
+	width: 100%;
+	background-color: #ffd633;
+	font-weight: 100;
+	color:black;
+	font-family: "lato";
+	font-size: 2.3em;
+}
+#member_message{
+	padding-top: 60px;
+	padding-bottom: 120px;
+	margin: 0 auto;
+	width:70%;
+	text-align: center;
+}
+#contact_info{
+	margin-top: 10px;
+	font-family: "Open Sans";
+	text-align: left;
+	font-weight: 100;
+	font-size: 1.7em;
+	width:80%;
+	margin-left: auto;
+	margin-right:auto;
+	color:white;
+}
+#contact_info a {
+	color: #50A6C2;
+}
+
+#contact_info a:hover {
+	text-decoration: none;
+	color: white;
+	-webkit-animation: 0.5s color;
+}
+.achievement_image{
+	position: relative;
+	height:100%;
+	width:100%;
+}
+.no_padding{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.achievement_text{
 
 	color:white;
-	font-size: 4em;
+	font-size: 2em;
 	text-align: center;
+	margin: auto;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.8);
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity 0.8s;
+
 }
-#button_area{
-	height: auto;
-	background-color: #00274c;
+.text_picture{
+	position: absolute;
+	font-size: 100%;
+	font-family: raleway;
+	padding: 3px;
+	border: 3px solid yellow;
+	margin: auto;
+	top: 20%;
+	bottom: 0;
+	left: 0;
+	right: 0;	
 }
-#mail{
-	font-size: 20px;
-	height:60px;
-	display:block;
-	border:none;
-	width:200px;
-	margin:0 auto;
-	background-color: #e74b80;
-	color: white;
-	border-radius: 200px 200px 200px 200px;
-	font-family: montserrat;
+.img_wrap{
+	display:inline-block;
+	max-width:100%;
+	max-height:50%;	
+}
+.img_wrap:hover .achievement_text {
+	visibility: visible;
+	opacity: 1;
+}
+.img_wrap:hover .achievement_image{
+	background-color: black;
+}
+#update_button{
+
+	margin-left:auto;
+	margin-right: auto;
+	top: 90;
+	left: 0;
+	right:0;
+}
+.achievement_caption{
+	
+	position: absolute;
+	top: 50%;
+	left:0;
+	right:0;
+	width: 80%;
 	text-align: center;
-	vertical-align: center;
+	border: 2px solid yellow;
+	background-color:#00274c;
+	margin-left:auto;
+	margin-right: auto;
+	color: #ffdb4d;
+	font-weight: 300;
+	font-family: lato;
+	font-size: 2em;
+ 
+
+}
+#caption_right{
+	position: absolute;
+	top: 90%;	
+}
+.achievement_header{
+
+	padding-bottom: 80px;
+	width:100%;
+	background-color:white;
+	color:#595959;
+	overflow: auto;
+}
+#achievement_notice{
+	margin-top: 90px;
+	width: 50%;
+	margin-left:auto;
+}
+
+span.contact {
+	color: #ffdb4d;
+}
+
+.map_wrapper {
+	/* This doesn't appear to do anything. Remove later... */
+	display: block;
+	margin: 0px auto;
+}
+
+#google_map {
+	width: 80%;
+	height: 50%;
+	min-height: 400px;
+	/* The two lines below actually center the map. Yes! */
+	margin: 0px auto;
+	display: block;
+}
+
+#mail {
+    font-size: 20px;
+    height: 60px;
+    display: block;
+    border: none;
+    width: 200px;
+    margin: 10px auto;
+	color: #333333;
+    background-color: white;
+    border-radius: 200px 200px 200px 200px;
+    font-family: montserrat;
+    text-align: center;
+    vertical-align: center;
 }
 
 #mail:hover{
 	-webkit-transition: color .50s, background-color .50s;
 	-moz-transition: color .50s, background-color .50s;
-	background-color: white;
-	color: #e74b80;
-}
-#map{
-	margin:0 auto;
-	position:relative;
-	width:400px;
-	height:350px;
-	padding-bottom: 20px;
-}
-@media (min-width: 1600px){
-	#contacts > hr {
-
-	width:80%;
-}
-}
-@media (max-width: 788px) {
-	#contact_list{
-		width:100%;
-	}
-	.contact{
-		width:100%;
-	}
-}
-@media (max-width: 600px) {
-	iframe{
-		width:90%;
-		margin: 0 auto;
-	}
-}
+    background-color: #ffdb4d;
+	color: #333333;
