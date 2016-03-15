@@ -152,7 +152,6 @@ ul.links > li{
         padding-bottom: 50px;
     }
     .navbar-collapse.collapse {
-        text-align: left;
         display: none !important;
     }  
 

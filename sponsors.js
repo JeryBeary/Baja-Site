@@ -8,7 +8,7 @@ $(function()
   $(".bronze_company").hover(function(){
   	if(!hovered)
   	{
-    $(this).stop().animate({height:$('.bronze_company').height()+20, width:$('.bronze_company').width()+20},200);
+    $(this).stop().animate({height:$('.bronze_company').height()+40, width:$('.bronze_company').width()+40},200);
 	}	
 	hovered = true;
 	}
@@ -21,7 +21,7 @@ $(function()
 	}
 );
   $(".silver_company").hover(function(){
-    $(this).stop().animate({height:$('.silver_company').height()+20, width:$('.silver_company').width()+20},200);
+    $(this).stop().animate({height:$('.silver_company').height()+40, width:$('.silver_company').width()+40},200);
 	}
   ,function(){
     $(this).stop().animate({height:ogHeightSilver, width:ogWidthSilver},200);

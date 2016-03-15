@@ -250,6 +250,13 @@ hr.blog{
 	}
 
 }
+@media(max-width: 1500px) {
+	.title_image{
+		width:400px;
+		height:250px;
+	}	
+
+}
 @media (max-width: 788px) {
 	.column_workshop{
 		display:block;

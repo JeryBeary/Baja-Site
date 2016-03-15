@@ -40,14 +40,13 @@ hr
 }
 #title{
 	position:relative;
-	top:40%;
-	text-align: center;
+	top:85%;
+	left:10%;
 	color:white;
-	font-weight:800;
+	font-weight:300;
 	margin-top: 100px;
-	font-family: raleway;
-	text-shadow:0px 5px 20px black;
-	font-size: 5em;
+	font-family: helvetica;
+	font-size: 3em;
 }
 #sponsor_info{
 
