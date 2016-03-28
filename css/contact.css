@@ -66,18 +66,17 @@ body{
 	padding-top: 100px;
 	min-height:800px;
 	width:100%;
-	background-color:#00274c;
+	background-color:white;
 	padding-bottom: 40px;
 	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 
 }
 .box_header{
-	color: #ffdb4d;
+	color: #00274c;
 	font-weight: 200;
 	font-style: bold;
 	font-family: raleway;
 	text-align: center;
-	border: 5px solid #ffdb4d;
 	margin: 15px auto;
 	font-size:3em;
 }
@@ -106,7 +105,7 @@ body{
 	text-align: justify;
 	margin:0 auto;
 	width:90%;
-	color:white;
+	color:#00274c;
 	font-size: 1.2em;
 }
 hr.blog{
@@ -138,7 +137,7 @@ hr.blog{
 	width:80%;
 	margin-left: auto;
 	margin-right:auto;
-	color:white;
+	color:#00274c;
 }
 #contact_info a {
 	color: #50A6C2;
@@ -246,7 +245,7 @@ hr.blog{
 }
 
 span.contact {
-	color: #ffdb4d;
+	color: #0099ff;
 }
 
 .map_wrapper {
@@ -271,10 +270,10 @@ span.contact {
     border: none;
     width: 200px;
     margin: 10px auto;
-	color: #333333;
-    background-color: white;
+	color: #00274c;
+    background-color: #0099ff;
     border-radius: 200px 200px 200px 200px;
-    font-family: montserrat;
+    font-family: "Open sans";
     text-align: center;
     vertical-align: center;
 }

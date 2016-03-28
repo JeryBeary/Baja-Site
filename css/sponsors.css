@@ -40,13 +40,31 @@ hr
 }
 #title{
 	position:relative;
-	top:85%;
+	top:420;
 	left:10%;
+	font-family: "open sans";
+	font-size: 1.8em;
+}
+.btn-button-name, .btn-button-name:link {
+
+	border-radius: 0px;
+	background-color: transparent;
+	font-weight: 700;
+	box-shadow: none;
+	color: white;
+	border: 2px solid white;
+}
+ .btn-button-name:hover {
+
+	background-color: white;
+	color: black;
+	-webkit-transition: color .55s, background-color .55s;
+	-moz-transition: color .55s, background-color .55s;
+}
+
+.btn-button-name:focus{
+	background-color: white;
 	color:white;
-	font-weight:300;
-	margin-top: 100px;
-	font-family: helvetica;
-	font-size: 3em;
 }
 #sponsor_info{
 
@@ -102,7 +120,7 @@ hr
 
 }
 .sponsor_body{
-	padding-top: 50px;
+	padding-top: 10px;
 	padding-bottom: 20px;
 	min-height:200px;
 	background-color: white;
@@ -112,6 +130,7 @@ hr
 	color:#333333;
 	font-size: 1.4em;
 	font-family: "Open sans";
+	font-weight: 200;
 	text-align: left;
 	width: 80%;
 	margin:0 auto;
@@ -129,8 +148,8 @@ hr
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 250px;
-	width: 250px;
+	height: 200px;
+	width: 200px;
 }
 .silver_company{
 	display: block;
@@ -152,17 +171,37 @@ hr
 	height:150px;
 	width:150px;
 	border:solid #0099ff;
-	height:150px;
-	width:150px;
+
+}
+.replacement_logo_gold{
+	margin-left: auto;
+	margin-right: auto;
+	height:200px;
+	width:200px;
+	border:solid #0099ff;
 }
 .replacement_bronze{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 }
-.replacement_logo > h4{
+.replacement_logo h4{
 	position: relative;
 	top:20%;
+	vertical-align: center;
+	text-align: center;
+	color:#0099ff;
+}
+.replacement_logo a{
+	width:100%;
+	height:100%;
+	margin-top:30px;
+	top:20%;
+	color:#0099ff;
+}
+.replacement_logo_gold > h4{
+	position: relative;
+	top:30%;
 	vertical-align: center;
 	text-align: center;
 	color:#0099ff;
@@ -181,7 +220,8 @@ hr
 		height:300px;
 	}
 	#title{
-		font-size: 3em;
+		top:240px;
+		font-size: 1.2em;
 	}
 
 }

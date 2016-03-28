@@ -1,0 +1,20 @@
+body{
+	background-color:#f2f2f2;
+}
+#title{
+	font-family: "Open Sans";
+	text-align: center;
+	color:#00274c;
+
+}
+
+.camera_title{
+	text-align: center;
+	font-family: raleway;
+}
+hr {
+    color:#99CCFF;
+    width:40%;
+    height:3px;
+    background-color: #00274c;
+}

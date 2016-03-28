@@ -1,0 +1,32 @@
+#head{
+	width:100%;
+	background-color: #f2f2f2;
+}
+#top_title{
+	
+	text-align: center;
+	font-family: "Open Sans";
+}
+
+.car_label{
+	text-align:  center;
+	font-family: raleway;
+}
+#gallery{
+	margin-top: -20px;
+}
+
+
+#gallery{
+	background-color: white;
+}
+
+#gallery_title{
+	text-align: center;
+	font-family: lato;
+	letter-spacing: 1px;
+}
+
+h1{
+	text-align: center;
+}

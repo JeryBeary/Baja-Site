@@ -2,8 +2,10 @@ body{
 	background-color: #d9d9d9;
 }
 hr{
-	border-color: #66b5ff;
-    width:80%;
+	background-color: #00274c;
+	color: #00274c;
+	height: 3px;
+	width: 30%;
 }
 .car{
 	height:90vh;
