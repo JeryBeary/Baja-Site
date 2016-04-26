@@ -21,8 +21,8 @@ a:hover {
 	height: 100vh;
 	min-height:800px;
 	background-image:
-		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-		url("../Resources/baja_car.jpg");
+	linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+	url("../Resources/baja_car.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -147,7 +147,7 @@ hr.blog{
 	margin-top: 10px;
 	margin-bottom: 40px;
 	font-family: "Open Sans";
-	text-align: justify;
+	text-align: left;
 	text-justify: inter-word;
 	font-weight: 100;
 	font-size: 1.7em;

@@ -79,7 +79,10 @@
     min-width:10px;
     font-size: 130%;
 }
-
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: #FFDB4D;
+    color:#0099FF;
+}
 /*******************************************************************\
  *	#Social media icons
 \*******************************************************************/
@@ -120,7 +123,7 @@
     background-color: #FFFFFF;
 }
 
-.dropdown-menu > li > a{
+.dropdown-menu  li  a{
     color:#0099ff;
 }
 
@@ -161,6 +164,15 @@ ul.links > li{
 
 }
 /* caret */
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    background-color: white;
+    color: #0099FF;
+}
+.navbar-default .navbar-nav> .open > a
+{
+    background-color: #FFDB4D;
+    color: #0099FF;
+}
 .navbar-default .navbar-nav > .dropdown > a .caret {
     border-top-color: #777;
     border-bottom-color: #777;

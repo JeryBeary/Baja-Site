@@ -114,7 +114,7 @@ hr
 	background: -webkit-linear-gradient(left,#996600 ,#ffaa00 );
 	background: -moz-linear-gradient(left,#f2f2f2 ,#a6a6a6 );	
 }
-.top_sponsor{
+.diamond_sponsor{
 	display:block;
 	margin:0 auto;
 
@@ -210,6 +210,10 @@ hr
 	.title_header > p{
 		font-size: 1.5em;
 	}
+
+}
+@media (max-width: 1000px) {
+
 }
 @media (max-width: 788px) {
 	img{

@@ -1,5 +1,5 @@
 body{
-	background-color: #d9d9d9;
+	background-color: #e6e6e6;
 }
 hr{
 	background-color: #00274c;
@@ -25,6 +25,38 @@ hr{
 	color:white;
 	font-family: lato;
 	text-shadow:0px 5px 20px black;
+}
+#old_team
+{
+	width:100%;
+	margin-top: -20px;
+	background-color: white;
+}
+#roster_title{
+	text-align: center;
+	letter-spacing: 1px;
+	font-family: montserrat;
+	font-weight: 100;
+	font-size: 2.8em;	
+}
+#captain_title{
+	color:#0099ff;
+	font-family: raleway;
+	font-weight: 100;
+	text-align: center;	
+}
+.names li{
+	list-style-type: none;
+	color:#006bb3;
+	font-size: 2em;
+	font-family: raleway;
+}
+.names li p{
+	text-align: center;
+}
+.names
+{
+	margin:0 auto;
 }
 #competition_title{
 	text-align: center;
@@ -93,7 +125,7 @@ hr{
 #gallery{
 	width:100%;
 	height: auto;
-	background-color:#e6e6e6; 
+	background-color:#d9d9d9; 
 }
 #gallery_title{
 	font-family: montserrat;
@@ -101,19 +133,24 @@ hr{
 	letter-spacing: 1px;
 }
 #fotorama_wrap{
-	position:relative;
 	margin: 0 auto;
 
+}
+.fotorama__wrap {
+    margin: 0 auto;
 }
 #fotorama_wrap > h1{
 	font-family: raleway;
 	text-align: center;
 	color:#004f99;
+	margin: 0 auto;
 	}
+
 .fotorama{
-	width: 500px;
 	margin:0 auto;
 }
+
+
 @media (max-width: 1000px) {
 	.competition{
 
