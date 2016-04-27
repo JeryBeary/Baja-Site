@@ -145,7 +145,7 @@ hr.blog{
 
 #contact_info a:hover {
 	text-decoration: none;
-	color: white;
+	color: #0099ff;
 	-webkit-animation: 0.5s color;
 }
 .achievement_image{
@@ -277,9 +277,7 @@ span.contact {
     text-align: center;
     vertical-align: center;
 }
-.contact_info:hover{
-	color: #0099ff;
-}
+
 #mail:hover{
 	-webkit-transition: color .50s, background-color .50s;
 	-moz-transition: color .50s, background-color .50s;
