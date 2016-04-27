@@ -277,7 +277,9 @@ span.contact {
     text-align: center;
     vertical-align: center;
 }
-
+.contact_info:hover{
+	color: #0099ff;
+}
 #mail:hover{
 	-webkit-transition: color .50s, background-color .50s;
 	-moz-transition: color .50s, background-color .50s;
