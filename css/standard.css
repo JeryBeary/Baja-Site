@@ -200,17 +200,18 @@ ul.links > li{
     background-color: #CCC;
 }
 @media (max-width: 788px) {
-    #logo{
-        padding-bottom: 50px;
-    }
+
     .navbar-collapse.collapse {
         display: none !important;
     }  
 
 }
-@media (max-width: 300px){
+
+@media (max-width: 500px) {
+ 
     #logo{
-        width:180px;
+        width:150px;
+        height:30px;
     }
 }
 

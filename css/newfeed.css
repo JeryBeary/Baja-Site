@@ -1,0 +1,24 @@
+#news_feed{
+	overflow: scroll;
+	padding-top: 100px;
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	background-color:#5f5f5f;
+	transition: height 0.4s;
+}
+.entry_title{
+	width: 70%;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	color: #FFCC66;
+}
+.entry{
+	text-align: justify;
+	margin:0 auto;
+	width:90%;
+	color:white;
+	font-size: 1.2em;
+}

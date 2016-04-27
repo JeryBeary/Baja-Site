@@ -259,8 +259,6 @@ hr.blog{
 	overflow: auto;
 }
 #achievement_notice{
-	/*margin-top: 40px;*/
-	width: 50%;
 	margin-left:auto;
 	margin-right: auto;
 	text-align: center;
@@ -324,8 +322,17 @@ hr.blog{
 	.achievement_text{
 		font-size: 1.5em;
 	}
+
+
+}
+@media (max-width: 600px) {
 	.text_picture{
 		width:80%;
+		top:10%;
+		font-size: 0.8em;
+	}
+	.img_wrap{
+		height:200px;
 	}
 
 }

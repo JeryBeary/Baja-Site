@@ -1,5 +1,5 @@
 body{
-	background-color: #e6e6e6;
+	background-color: #f2f2f2;
 }
 hr{
 	background-color: #00274c;
@@ -46,6 +46,7 @@ hr{
 	text-align: center;	
 }
 .names li{
+	width:100%;
 	list-style-type: none;
 	color:#006bb3;
 	font-size: 2em;
@@ -125,7 +126,7 @@ hr{
 #gallery{
 	width:100%;
 	height: auto;
-	background-color:#d9d9d9; 
+	background-color:#e6e6e6; 
 }
 #gallery_title{
 	font-family: montserrat;
