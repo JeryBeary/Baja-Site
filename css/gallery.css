@@ -168,12 +168,12 @@ hr{
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
 	#fotorama_wrap{
 		padding-top: 20px;
 
 	}
 	.car{
-		height:70vh;
+		height:30vh;
 	}
 }
