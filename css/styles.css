@@ -199,4 +199,9 @@ ul.icons > li{
 		display: block;
 	}
 }
+@media (min-width:1300px) {
+        #myCarousel{
+        width:1100px;       
+    }
+}
 

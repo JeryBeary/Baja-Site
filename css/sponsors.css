@@ -229,6 +229,8 @@ hr
 	}
 
 }
-@media(max-width: 500px){
-	
+@media(min-width: 1500px){
+	#title_wrap{
+		width:1300px;
+	}
 }

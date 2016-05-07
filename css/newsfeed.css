@@ -32,6 +32,7 @@
 }
 
 .entry_subtitle{
+	font-weight: bold;
 	font-family: helvetica;
 	color:#ffb31a;
 	width:100%;	
@@ -41,7 +42,7 @@
 	text-align: left;
 	margin:0 auto;
 	font-family: "open sans";
-	color:#007acc;
+	color:black;
 	font-size: 1.3em;
 }
 .tabs{
@@ -64,7 +65,7 @@ hr{
 	display:block;
 	margin: 0 auto;
 	width:500px;
-	height:350px;
+	height:300px;
 }
 
 @media (max-width: 650px) {
