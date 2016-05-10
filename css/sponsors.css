@@ -15,9 +15,12 @@ hr
 	min-height: 200px;
 	/*float: left;*/
 	margin-bottom: 30px;
+	margin-top: 20px;
 }	
 #title_wrap{
+
 	width:100%;
+	margin:0 auto;
 	height: 500px;
 	background-image: url("../Resources/sponsor_example.jpg");
 	background-size: 100% 100%;
