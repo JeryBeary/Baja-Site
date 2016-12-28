@@ -16,8 +16,8 @@
 		<script src="contact.js"></script>
 		<script>
 			$(function(){
-				$("#top").load("header.html");  
-				$("#footer").load("footer.html");  
+				$("#top").load("header.html");
+				$("#footer").load("footer.html");
 			});
 		</script>
 	</head>
@@ -38,7 +38,35 @@
 				</div>
 				<div class = "row">
 					<div class="col-sm-12">
-						<div id="google_map"></div>
+						<div id="google_map">
+							<script>
+							function initialize() {
+								var map_canvas = document.getElementById("google_map");
+								var uluru = {lat: 42.292989, lng: -83.7106572};
+								var map_properties = {
+									center:new google.maps.LatLng(42.292989,-83.7106572),
+									zoom:15,
+									mapTypeId:google.maps.MapTypeId.ROADMAP
+								};
+								var map=new google.maps.Map(map_canvas, map_properties);
+
+								var contentString = "<b>Michigan Baja Racing</b><br>" +
+									"2603 Draper Drive<br>" +
+									"Ann Arbor, MI 48109<br>";
+								var infowindow = new google.maps.InfoWindow({
+								      content: contentString});
+								var marker = new google.maps.Marker({ position: uluru, map: map});
+
+								infowindow.open(map, marker);
+								//marker.addListener('click', function() {
+							    //      infowindow.open(map, marker);
+							    //    });
+							}
+							google.maps.event.addDomListener(window, 'load', initialize);
+							</script>
+							<script async defer
+	      					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqfDHB78TGPHcwCVIEilh3eDQM0xRslFM&callback=initMap">
+	    					</script></div>
 					</div>
 				</div>
 				<div class = "row">
